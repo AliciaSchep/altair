@@ -26,6 +26,13 @@
 #'
 alt <- NULL
 
+#' An altair class for missing inputs
+#'
+#'
+#' @export Undefined
+Undefined <- NULL
+
 .onLoad <- function(libname, pkgname) {
   alt <<- reticulate::import("altair", delay_load = TRUE)
+  Undefined <<- alt$Undefined
 }
