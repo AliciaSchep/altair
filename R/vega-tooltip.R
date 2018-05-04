@@ -191,7 +191,7 @@ vega_tooltip_all <- function(showAllFields = TRUE, ...) {
 #'
 #' @export
 #'
-add_field <- function(tooltip, field = NULL, title = NULL,
+add_field <- function(tooltip, field = NULL, title = field,
                       formatType = NULL, format = NULL,
                       valueAccessor = NULL, render = NULL,
                       aggregate = NULL, ...) {
@@ -200,7 +200,7 @@ add_field <- function(tooltip, field = NULL, title = NULL,
 
 #' @export
 #'
-add_field.default <- function(tooltip, field = NULL, title = NULL,
+add_field.default <- function(tooltip, field = NULL, title = field,
                               formatType = NULL, format = NULL,
                               valueAccessor = NULL, render = NULL,
                               aggregate = NULL, ...) {
@@ -209,7 +209,7 @@ add_field.default <- function(tooltip, field = NULL, title = NULL,
 
 #' @export
 #'
-add_field.vega_tooltip <- function(tooltip, field = NULL, title = NULL,
+add_field.vega_tooltip <- function(tooltip, field = NULL, title = field,
                                    formatType = NULL, format = NULL,
                                    valueAccessor = NULL, render = NULL,
                                    aggregate = NULL, ...) {
@@ -227,9 +227,9 @@ add_field.vega_tooltip <- function(tooltip, field = NULL, title = NULL,
   )
 
   if (is.null(tooltip$fields)) {
-    tooltip$fields <- field_new
+    tooltip$fields <- list(field_new)
   } else {
-    tooltip$fields <- list(tooltip$fields, field_new)
+    tooltip$fields <- c(tooltip$fields, list(field_new))
   }
 
   tooltip
@@ -260,7 +260,7 @@ add_field.vega_tooltip <- function(tooltip, field = NULL, title = NULL,
 #'
 #' @keywords internal
 #' @export
-tooltip_field <- function(field = NULL, title = NULL,
+tooltip_field <- function(field = NULL, title = field,
                           formatType = NULL, format = NULL,
                           valueAccessor = NULL, render = NULL,
                           aggregate = NULL) {
