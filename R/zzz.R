@@ -27,16 +27,6 @@
 #'
 alt <- NULL
 
-#' An altair class for missing inputs
-#'
-#'
-#' @export Undefined
-Undefined <- NULL
-
-.onLoad <- function(libname, pkgname) {
-  alt <<- reticulate::import("altair", delay_load = TRUE)
-  Undefined <<- alt$Undefined
-
 #' Vega datasets
 #'
 #' Uses the reticulate framework to access the `vega_datasets` Python
@@ -64,6 +54,7 @@ Undefined <- NULL
 #' @export vega_data
 #'
 vega_data <- NULL
+
 
 .onLoad <- function(libname, pkgname) {
   alt <<- reticulate::import("altair", delay_load = TRUE)

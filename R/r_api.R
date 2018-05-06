@@ -1,5966 +1,6229 @@
 # Auto-generated api
 #' @export
 alt_Aggregate <- function (...) {
-  alt$`Aggregate`(...)
+alt$`Aggregate`(...)
 }
 #' @export
 alt_AggregateOp <- function (...) {
-  alt$`AggregateOp`(...)
+alt$`AggregateOp`(...)
 }
 #' @export
-alt_AggregateTransform <- function (...) {
-  alt$`AggregateTransform`(...)
+alt_AggregateTransform <- function (`aggregate` = alt$Undefined, `groupby` = alt$Undefined, ...) {
+alt$`AggregateTransform`(`aggregate` = r_to_py(`aggregate`), `groupby` = r_to_py(`groupby`), ...)
 }
 #' @export
-alt_AggregatedFieldDef <- function (...) {
-  alt$`AggregatedFieldDef`(...)
+alt_AggregatedFieldDef <- function (`op` = alt$Undefined, `field` = alt$Undefined, ...) {
+alt$`AggregatedFieldDef`(`op` = r_to_py(`op`), `field` = r_to_py(`field`), ...)
 }
 #' @export
 alt_Anchor <- function (...) {
-  alt$`Anchor`(...)
+alt$`Anchor`(...)
 }
 #' @export
 alt_AnyMark <- function (...) {
-  alt$`AnyMark`(...)
+alt$`AnyMark`(...)
 }
 #' @export
-alt_AutoSizeParams <- function (...) {
-  alt$`AutoSizeParams`(...)
+alt_AreaConfig <- function (`align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+alt$`AreaConfig`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+}
+#' @export
+alt_AutoSizeParams <- function (`contains` = alt$Undefined, `resize` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`AutoSizeParams`(`contains` = r_to_py(`contains`), `resize` = r_to_py(`resize`), `type` = r_to_py(`type`), ...)
 }
 #' @export
 alt_AutosizeType <- function (...) {
-  alt$`AutosizeType`(...)
+alt$`AutosizeType`(...)
 }
 #' @export
-alt_Axis <- function (...) {
-  alt$`Axis`(...)
+alt_Axis <- function (`domain` = alt$Undefined, `format` = alt$Undefined, `grid` = alt$Undefined, `labelAngle` = alt$Undefined, `labelBound` = alt$Undefined, `labelFlush` = alt$Undefined, `labelOverlap` = alt$Undefined, `labelPadding` = alt$Undefined, `labels` = alt$Undefined, `maxExtent` = alt$Undefined, `minExtent` = alt$Undefined, `offset` = alt$Undefined, `orient` = alt$Undefined, `position` = alt$Undefined, `tickCount` = alt$Undefined, `tickSize` = alt$Undefined, `ticks` = alt$Undefined, `title` = alt$Undefined, `titleMaxLength` = alt$Undefined, `titlePadding` = alt$Undefined, `values` = alt$Undefined, `zindex` = alt$Undefined, ...) {
+alt$`Axis`(`domain` = r_to_py(`domain`), `format` = r_to_py(`format`), `grid` = r_to_py(`grid`), `labelAngle` = r_to_py(`labelAngle`), `labelBound` = r_to_py(`labelBound`), `labelFlush` = r_to_py(`labelFlush`), `labelOverlap` = r_to_py(`labelOverlap`), `labelPadding` = r_to_py(`labelPadding`), `labels` = r_to_py(`labels`), `maxExtent` = r_to_py(`maxExtent`), `minExtent` = r_to_py(`minExtent`), `offset` = r_to_py(`offset`), `orient` = r_to_py(`orient`), `position` = r_to_py(`position`), `tickCount` = r_to_py(`tickCount`), `tickSize` = r_to_py(`tickSize`), `ticks` = r_to_py(`ticks`), `title` = r_to_py(`title`), `titleMaxLength` = r_to_py(`titleMaxLength`), `titlePadding` = r_to_py(`titlePadding`), `values` = r_to_py(`values`), `zindex` = r_to_py(`zindex`), ...)
 }
 #' @export
-alt_AxisConfig <- function (...) {
-  alt$`AxisConfig`(...)
+alt_AxisConfig <- function (`bandPosition` = alt$Undefined, `domain` = alt$Undefined, `domainColor` = alt$Undefined, `domainWidth` = alt$Undefined, `grid` = alt$Undefined, `gridColor` = alt$Undefined, `gridDash` = alt$Undefined, `gridOpacity` = alt$Undefined, `gridWidth` = alt$Undefined, `labelAngle` = alt$Undefined, `labelBound` = alt$Undefined, `labelColor` = alt$Undefined, `labelFlush` = alt$Undefined, `labelFont` = alt$Undefined, `labelFontSize` = alt$Undefined, `labelLimit` = alt$Undefined, `labelOverlap` = alt$Undefined, `labelPadding` = alt$Undefined, `labels` = alt$Undefined, `maxExtent` = alt$Undefined, `minExtent` = alt$Undefined, `shortTimeLabels` = alt$Undefined, `tickColor` = alt$Undefined, `tickRound` = alt$Undefined, `tickSize` = alt$Undefined, `tickWidth` = alt$Undefined, `ticks` = alt$Undefined, `titleAlign` = alt$Undefined, `titleAngle` = alt$Undefined, `titleBaseline` = alt$Undefined, `titleColor` = alt$Undefined, `titleFont` = alt$Undefined, `titleFontSize` = alt$Undefined, `titleFontWeight` = alt$Undefined, `titleLimit` = alt$Undefined, `titleMaxLength` = alt$Undefined, `titlePadding` = alt$Undefined, `titleX` = alt$Undefined, `titleY` = alt$Undefined, ...) {
+alt$`AxisConfig`(`bandPosition` = r_to_py(`bandPosition`), `domain` = r_to_py(`domain`), `domainColor` = r_to_py(`domainColor`), `domainWidth` = r_to_py(`domainWidth`), `grid` = r_to_py(`grid`), `gridColor` = r_to_py(`gridColor`), `gridDash` = r_to_py(`gridDash`), `gridOpacity` = r_to_py(`gridOpacity`), `gridWidth` = r_to_py(`gridWidth`), `labelAngle` = r_to_py(`labelAngle`), `labelBound` = r_to_py(`labelBound`), `labelColor` = r_to_py(`labelColor`), `labelFlush` = r_to_py(`labelFlush`), `labelFont` = r_to_py(`labelFont`), `labelFontSize` = r_to_py(`labelFontSize`), `labelLimit` = r_to_py(`labelLimit`), `labelOverlap` = r_to_py(`labelOverlap`), `labelPadding` = r_to_py(`labelPadding`), `labels` = r_to_py(`labels`), `maxExtent` = r_to_py(`maxExtent`), `minExtent` = r_to_py(`minExtent`), `shortTimeLabels` = r_to_py(`shortTimeLabels`), `tickColor` = r_to_py(`tickColor`), `tickRound` = r_to_py(`tickRound`), `tickSize` = r_to_py(`tickSize`), `tickWidth` = r_to_py(`tickWidth`), `ticks` = r_to_py(`ticks`), `titleAlign` = r_to_py(`titleAlign`), `titleAngle` = r_to_py(`titleAngle`), `titleBaseline` = r_to_py(`titleBaseline`), `titleColor` = r_to_py(`titleColor`), `titleFont` = r_to_py(`titleFont`), `titleFontSize` = r_to_py(`titleFontSize`), `titleFontWeight` = r_to_py(`titleFontWeight`), `titleLimit` = r_to_py(`titleLimit`), `titleMaxLength` = r_to_py(`titleMaxLength`), `titlePadding` = r_to_py(`titlePadding`), `titleX` = r_to_py(`titleX`), `titleY` = r_to_py(`titleY`), ...)
 }
 #' @export
 alt_AxisOrient <- function (...) {
-  alt$`AxisOrient`(...)
+alt$`AxisOrient`(...)
 }
 #' @export
-alt_AxisResolveMap <- function (...) {
-  alt$`AxisResolveMap`(...)
+alt_AxisResolveMap <- function (`x` = alt$Undefined, `y` = alt$Undefined, ...) {
+alt$`AxisResolveMap`(`x` = r_to_py(`x`), `y` = r_to_py(`y`), ...)
 }
 #' @export
-alt_BarConfig <- function (...) {
-  alt$`BarConfig`(...)
+alt_BarConfig <- function (`align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `color` = alt$Undefined, `continuousBandSize` = alt$Undefined, `cursor` = alt$Undefined, `discreteBandSize` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+alt$`BarConfig`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `color` = r_to_py(`color`), `continuousBandSize` = r_to_py(`continuousBandSize`), `cursor` = r_to_py(`cursor`), `discreteBandSize` = r_to_py(`discreteBandSize`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
 }
 #' @export
 alt_BasicType <- function (...) {
-  alt$`BasicType`(...)
+alt$`BasicType`(...)
 }
 #' @export
-alt_Bin <- function (...) {
-  alt$`Bin`(...)
+alt_Bin <- function (`base` = alt$Undefined, `divide` = alt$Undefined, `extent` = alt$Undefined, `maxbins` = alt$Undefined, `minstep` = alt$Undefined, `nice` = alt$Undefined, `step` = alt$Undefined, `steps` = alt$Undefined, ...) {
+alt$`Bin`(`base` = r_to_py(`base`), `divide` = r_to_py(`divide`), `extent` = r_to_py(`extent`), `maxbins` = r_to_py(`maxbins`), `minstep` = r_to_py(`minstep`), `nice` = r_to_py(`nice`), `step` = r_to_py(`step`), `steps` = r_to_py(`steps`), ...)
 }
 #' @export
-alt_BinParams <- function (...) {
-  alt$`BinParams`(...)
+alt_BinParams <- function (`base` = alt$Undefined, `divide` = alt$Undefined, `extent` = alt$Undefined, `maxbins` = alt$Undefined, `minstep` = alt$Undefined, `nice` = alt$Undefined, `step` = alt$Undefined, `steps` = alt$Undefined, ...) {
+alt$`BinParams`(`base` = r_to_py(`base`), `divide` = r_to_py(`divide`), `extent` = r_to_py(`extent`), `maxbins` = r_to_py(`maxbins`), `minstep` = r_to_py(`minstep`), `nice` = r_to_py(`nice`), `step` = r_to_py(`step`), `steps` = r_to_py(`steps`), ...)
 }
 #' @export
-alt_BinTransform <- function (...) {
-  alt$`BinTransform`(...)
+alt_BinTransform <- function (`bin` = alt$Undefined, `field` = alt$Undefined, ...) {
+alt$`BinTransform`(`bin` = r_to_py(`bin`), `field` = r_to_py(`field`), ...)
 }
 #' @export
-alt_BrushConfig <- function (...) {
-  alt$`BrushConfig`(...)
+alt_BrushConfig <- function (`fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `stroke` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, ...) {
+alt$`BrushConfig`(`fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `stroke` = r_to_py(`stroke`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), ...)
 }
 #' @export
-alt_CalculateTransform <- function (...) {
-  alt$`CalculateTransform`(...)
+alt_CalculateTransform <- function (`calculate` = alt$Undefined, ...) {
+alt$`CalculateTransform`(`calculate` = r_to_py(`calculate`), ...)
 }
 #' @export
-alt_Chart <- function (...) {
-  alt$`Chart`(...)
+alt_Chart <- function (`data` = alt$Undefined, `encoding` = alt$Undefined, `mark` = alt$Undefined, `width` = alt$Undefined, `height` = alt$Undefined, ...) {
+alt$`Chart`(`data` = r_to_py(`data`), `encoding` = r_to_py(`encoding`), `mark` = r_to_py(`mark`), `width` = r_to_py(`width`), `height` = r_to_py(`height`), ...)
 }
 #' @export
-alt_Color <- function (...) {
-  alt$`Color`(...)
+alt_Color <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Color`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_ColorValue <- function (...) {
-  alt$`ColorValue`(...)
+alt_ColorValue <- function (`value`, `condition` = alt$Undefined, ...) {
+alt$`ColorValue`(r_to_py(`value`), `condition` = r_to_py(`condition`), ...)
 }
 #' @export
-alt_Column <- function (...) {
-  alt$`Column`(...)
+alt_Column <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `header` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Column`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `header` = r_to_py(`header`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_CompositeUnitSpec <- function (...) {
-  alt$`CompositeUnitSpec`(...)
+alt_CompositeUnitSpec <- function (`mark` = alt$Undefined, `data` = alt$Undefined, `description` = alt$Undefined, `encoding` = alt$Undefined, `height` = alt$Undefined, `name` = alt$Undefined, `projection` = alt$Undefined, `selection` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, `width` = alt$Undefined, ...) {
+alt$`CompositeUnitSpec`(`mark` = r_to_py(`mark`), `data` = r_to_py(`data`), `description` = r_to_py(`description`), `encoding` = r_to_py(`encoding`), `height` = r_to_py(`height`), `name` = r_to_py(`name`), `projection` = r_to_py(`projection`), `selection` = r_to_py(`selection`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), `width` = r_to_py(`width`), ...)
 }
 #' @export
-alt_CompositeUnitSpecAlias <- function (...) {
-  alt$`CompositeUnitSpecAlias`(...)
+alt_CompositeUnitSpecAlias <- function (`mark` = alt$Undefined, `data` = alt$Undefined, `description` = alt$Undefined, `encoding` = alt$Undefined, `height` = alt$Undefined, `name` = alt$Undefined, `projection` = alt$Undefined, `selection` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, `width` = alt$Undefined, ...) {
+alt$`CompositeUnitSpecAlias`(`mark` = r_to_py(`mark`), `data` = r_to_py(`data`), `description` = r_to_py(`description`), `encoding` = r_to_py(`encoding`), `height` = r_to_py(`height`), `name` = r_to_py(`name`), `projection` = r_to_py(`projection`), `selection` = r_to_py(`selection`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), `width` = r_to_py(`width`), ...)
 }
 #' @export
 alt_ConditionalFieldDef <- function (...) {
-  alt$`ConditionalFieldDef`(...)
+alt$`ConditionalFieldDef`(...)
 }
 #' @export
 alt_ConditionalMarkPropFieldDef <- function (...) {
-  alt$`ConditionalMarkPropFieldDef`(...)
+alt$`ConditionalMarkPropFieldDef`(...)
 }
 #' @export
-alt_ConditionalPredicateFieldDef <- function (...) {
-  alt$`ConditionalPredicateFieldDef`(...)
+alt_ConditionalPredicateFieldDef <- function (`test` = alt$Undefined, `type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`ConditionalPredicateFieldDef`(`test` = r_to_py(`test`), `type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_ConditionalPredicateMarkPropFieldDef <- function (...) {
-  alt$`ConditionalPredicateMarkPropFieldDef`(...)
+alt_ConditionalPredicateMarkPropFieldDef <- function (`test` = alt$Undefined, `type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`ConditionalPredicateMarkPropFieldDef`(`test` = r_to_py(`test`), `type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_ConditionalPredicateTextFieldDef <- function (...) {
-  alt$`ConditionalPredicateTextFieldDef`(...)
+alt_ConditionalPredicateTextFieldDef <- function (`test` = alt$Undefined, `type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `format` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`ConditionalPredicateTextFieldDef`(`test` = r_to_py(`test`), `type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `format` = r_to_py(`format`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_ConditionalPredicateValueDef <- function (...) {
-  alt$`ConditionalPredicateValueDef`(...)
+alt_ConditionalPredicateValueDef <- function (`test` = alt$Undefined, `value` = alt$Undefined, ...) {
+alt$`ConditionalPredicateValueDef`(`test` = r_to_py(`test`), `value` = r_to_py(`value`), ...)
 }
 #' @export
-alt_ConditionalSelectionFieldDef <- function (...) {
-  alt$`ConditionalSelectionFieldDef`(...)
+alt_ConditionalSelectionFieldDef <- function (`selection` = alt$Undefined, `type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`ConditionalSelectionFieldDef`(`selection` = r_to_py(`selection`), `type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_ConditionalSelectionMarkPropFieldDef <- function (...) {
-  alt$`ConditionalSelectionMarkPropFieldDef`(...)
+alt_ConditionalSelectionMarkPropFieldDef <- function (`selection` = alt$Undefined, `type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`ConditionalSelectionMarkPropFieldDef`(`selection` = r_to_py(`selection`), `type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_ConditionalSelectionTextFieldDef <- function (...) {
-  alt$`ConditionalSelectionTextFieldDef`(...)
+alt_ConditionalSelectionTextFieldDef <- function (`selection` = alt$Undefined, `type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `format` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`ConditionalSelectionTextFieldDef`(`selection` = r_to_py(`selection`), `type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `format` = r_to_py(`format`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_ConditionalSelectionValueDef <- function (...) {
-  alt$`ConditionalSelectionValueDef`(...)
+alt_ConditionalSelectionValueDef <- function (`selection` = alt$Undefined, `value` = alt$Undefined, ...) {
+alt$`ConditionalSelectionValueDef`(`selection` = r_to_py(`selection`), `value` = r_to_py(`value`), ...)
 }
 #' @export
 alt_ConditionalTextFieldDef <- function (...) {
-  alt$`ConditionalTextFieldDef`(...)
+alt$`ConditionalTextFieldDef`(...)
 }
 #' @export
 alt_ConditionalValueDef <- function (...) {
-  alt$`ConditionalValueDef`(...)
+alt$`ConditionalValueDef`(...)
 }
 #' @export
-alt_Config <- function (...) {
-  alt$`Config`(...)
+alt_Config <- function (`area` = alt$Undefined, `autosize` = alt$Undefined, `axis` = alt$Undefined, `axisBand` = alt$Undefined, `axisBottom` = alt$Undefined, `axisLeft` = alt$Undefined, `axisRight` = alt$Undefined, `axisTop` = alt$Undefined, `axisX` = alt$Undefined, `axisY` = alt$Undefined, `background` = alt$Undefined, `bar` = alt$Undefined, `circle` = alt$Undefined, `countTitle` = alt$Undefined, `datasets` = alt$Undefined, `fieldTitle` = alt$Undefined, `geoshape` = alt$Undefined, `invalidValues` = alt$Undefined, `legend` = alt$Undefined, `line` = alt$Undefined, `mark` = alt$Undefined, `numberFormat` = alt$Undefined, `padding` = alt$Undefined, `point` = alt$Undefined, `projection` = alt$Undefined, `range` = alt$Undefined, `rect` = alt$Undefined, `rule` = alt$Undefined, `scale` = alt$Undefined, `selection` = alt$Undefined, `square` = alt$Undefined, `stack` = alt$Undefined, `style` = alt$Undefined, `text` = alt$Undefined, `tick` = alt$Undefined, `timeFormat` = alt$Undefined, `title` = alt$Undefined, `trail` = alt$Undefined, `view` = alt$Undefined, ...) {
+alt$`Config`(`area` = r_to_py(`area`), `autosize` = r_to_py(`autosize`), `axis` = r_to_py(`axis`), `axisBand` = r_to_py(`axisBand`), `axisBottom` = r_to_py(`axisBottom`), `axisLeft` = r_to_py(`axisLeft`), `axisRight` = r_to_py(`axisRight`), `axisTop` = r_to_py(`axisTop`), `axisX` = r_to_py(`axisX`), `axisY` = r_to_py(`axisY`), `background` = r_to_py(`background`), `bar` = r_to_py(`bar`), `circle` = r_to_py(`circle`), `countTitle` = r_to_py(`countTitle`), `datasets` = r_to_py(`datasets`), `fieldTitle` = r_to_py(`fieldTitle`), `geoshape` = r_to_py(`geoshape`), `invalidValues` = r_to_py(`invalidValues`), `legend` = r_to_py(`legend`), `line` = r_to_py(`line`), `mark` = r_to_py(`mark`), `numberFormat` = r_to_py(`numberFormat`), `padding` = r_to_py(`padding`), `point` = r_to_py(`point`), `projection` = r_to_py(`projection`), `range` = r_to_py(`range`), `rect` = r_to_py(`rect`), `rule` = r_to_py(`rule`), `scale` = r_to_py(`scale`), `selection` = r_to_py(`selection`), `square` = r_to_py(`square`), `stack` = r_to_py(`stack`), `style` = r_to_py(`style`), `text` = r_to_py(`text`), `tick` = r_to_py(`tick`), `timeFormat` = r_to_py(`timeFormat`), `title` = r_to_py(`title`), `trail` = r_to_py(`trail`), `view` = r_to_py(`view`), ...)
 }
 #' @export
-alt_CsvDataFormat <- function (...) {
-  alt$`CsvDataFormat`(...)
+alt_CsvDataFormat <- function (`parse` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`CsvDataFormat`(`parse` = r_to_py(`parse`), `type` = r_to_py(`type`), ...)
 }
 #' @export
 alt_Data <- function (...) {
-  alt$`Data`(...)
+alt$`Data`(...)
 }
 #' @export
 alt_DataFormat <- function (...) {
-  alt$`DataFormat`(...)
+alt$`DataFormat`(...)
 }
 #' @export
 alt_Datasets <- function (...) {
-  alt$`Datasets`(...)
+alt$`Datasets`(...)
 }
 #' @export
-alt_DateTime <- function (...) {
-  alt$`DateTime`(...)
+alt_DateTime <- function (`date` = alt$Undefined, `day` = alt$Undefined, `hours` = alt$Undefined, `milliseconds` = alt$Undefined, `minutes` = alt$Undefined, `month` = alt$Undefined, `quarter` = alt$Undefined, `seconds` = alt$Undefined, `utc` = alt$Undefined, `year` = alt$Undefined, ...) {
+alt$`DateTime`(`date` = r_to_py(`date`), `day` = r_to_py(`day`), `hours` = r_to_py(`hours`), `milliseconds` = r_to_py(`milliseconds`), `minutes` = r_to_py(`minutes`), `month` = r_to_py(`month`), `quarter` = r_to_py(`quarter`), `seconds` = r_to_py(`seconds`), `utc` = r_to_py(`utc`), `year` = r_to_py(`year`), ...)
 }
 #' @export
 alt_Day <- function (...) {
-  alt$`Day`(...)
+alt$`Day`(...)
 }
 #' @export
-alt_Detail <- function (...) {
-  alt$`Detail`(...)
+alt_Detail <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Detail`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
 alt_DictInlineDataset <- function (...) {
-  alt$`DictInlineDataset`(...)
+alt$`DictInlineDataset`(...)
 }
 #' @export
-alt_Encoding <- function (...) {
-  alt$`Encoding`(...)
+alt_Encoding <- function (`color` = alt$Undefined, `detail` = alt$Undefined, `fill` = alt$Undefined, `href` = alt$Undefined, `key` = alt$Undefined, `latitude` = alt$Undefined, `latitude2` = alt$Undefined, `longitude` = alt$Undefined, `longitude2` = alt$Undefined, `opacity` = alt$Undefined, `order` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `text` = alt$Undefined, `tooltip` = alt$Undefined, `x` = alt$Undefined, `x2` = alt$Undefined, `y` = alt$Undefined, `y2` = alt$Undefined, ...) {
+alt$`Encoding`(`color` = r_to_py(`color`), `detail` = r_to_py(`detail`), `fill` = r_to_py(`fill`), `href` = r_to_py(`href`), `key` = r_to_py(`key`), `latitude` = r_to_py(`latitude`), `latitude2` = r_to_py(`latitude2`), `longitude` = r_to_py(`longitude`), `longitude2` = r_to_py(`longitude2`), `opacity` = r_to_py(`opacity`), `order` = r_to_py(`order`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `text` = r_to_py(`text`), `tooltip` = r_to_py(`tooltip`), `x` = r_to_py(`x`), `x2` = r_to_py(`x2`), `y` = r_to_py(`y`), `y2` = r_to_py(`y2`), ...)
 }
 #' @export
-alt_EncodingWithFacet <- function (...) {
-  alt$`EncodingWithFacet`(...)
+alt_EncodingMixin <- function () {
+alt$`EncodingMixin`()
 }
 #' @export
-alt_FacetChart <- function (...) {
-  alt$`FacetChart`(...)
+alt_EncodingWithFacet <- function (`color` = alt$Undefined, `column` = alt$Undefined, `detail` = alt$Undefined, `fill` = alt$Undefined, `href` = alt$Undefined, `key` = alt$Undefined, `latitude` = alt$Undefined, `latitude2` = alt$Undefined, `longitude` = alt$Undefined, `longitude2` = alt$Undefined, `opacity` = alt$Undefined, `order` = alt$Undefined, `row` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `text` = alt$Undefined, `tooltip` = alt$Undefined, `x` = alt$Undefined, `x2` = alt$Undefined, `y` = alt$Undefined, `y2` = alt$Undefined, ...) {
+alt$`EncodingWithFacet`(`color` = r_to_py(`color`), `column` = r_to_py(`column`), `detail` = r_to_py(`detail`), `fill` = r_to_py(`fill`), `href` = r_to_py(`href`), `key` = r_to_py(`key`), `latitude` = r_to_py(`latitude`), `latitude2` = r_to_py(`latitude2`), `longitude` = r_to_py(`longitude`), `longitude2` = r_to_py(`longitude2`), `opacity` = r_to_py(`opacity`), `order` = r_to_py(`order`), `row` = r_to_py(`row`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `text` = r_to_py(`text`), `tooltip` = r_to_py(`tooltip`), `x` = r_to_py(`x`), `x2` = r_to_py(`x2`), `y` = r_to_py(`y`), `y2` = r_to_py(`y2`), ...)
 }
 #' @export
-alt_FacetFieldDef <- function (...) {
-  alt$`FacetFieldDef`(...)
+alt_FacetChart <- function (`spec`, `facet` = alt$Undefined, ...) {
+alt$`FacetChart`(r_to_py(`spec`), `facet` = r_to_py(`facet`), ...)
 }
 #' @export
-alt_FacetMapping <- function (...) {
-  alt$`FacetMapping`(...)
+alt_FacetFieldDef <- function (`type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `header` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`FacetFieldDef`(`type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `header` = r_to_py(`header`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_FacetSpec <- function (...) {
-  alt$`FacetSpec`(...)
+alt_FacetMapping <- function (`column` = alt$Undefined, `row` = alt$Undefined, ...) {
+alt$`FacetMapping`(`column` = r_to_py(`column`), `row` = r_to_py(`row`), ...)
 }
 #' @export
-alt_FacetedCompositeUnitSpecAlias <- function (...) {
-  alt$`FacetedCompositeUnitSpecAlias`(...)
+alt_FacetSpec <- function (`facet` = alt$Undefined, `spec` = alt$Undefined, `data` = alt$Undefined, `description` = alt$Undefined, `name` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, ...) {
+alt$`FacetSpec`(`facet` = r_to_py(`facet`), `spec` = r_to_py(`spec`), `data` = r_to_py(`data`), `description` = r_to_py(`description`), `name` = r_to_py(`name`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), ...)
 }
 #' @export
-alt_FieldDef <- function (...) {
-  alt$`FieldDef`(...)
+alt_FacetedCompositeUnitSpecAlias <- function (`mark` = alt$Undefined, `data` = alt$Undefined, `description` = alt$Undefined, `encoding` = alt$Undefined, `height` = alt$Undefined, `name` = alt$Undefined, `projection` = alt$Undefined, `selection` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, `width` = alt$Undefined, ...) {
+alt$`FacetedCompositeUnitSpecAlias`(`mark` = r_to_py(`mark`), `data` = r_to_py(`data`), `description` = r_to_py(`description`), `encoding` = r_to_py(`encoding`), `height` = r_to_py(`height`), `name` = r_to_py(`name`), `projection` = r_to_py(`projection`), `selection` = r_to_py(`selection`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), `width` = r_to_py(`width`), ...)
 }
 #' @export
-alt_FieldDefWithCondition <- function (...) {
-  alt$`FieldDefWithCondition`(...)
+alt_FieldChannelMixin <- function () {
+alt$`FieldChannelMixin`()
 }
 #' @export
-alt_FieldEqualPredicate <- function (...) {
-  alt$`FieldEqualPredicate`(...)
+alt_FieldDef <- function (`type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`FieldDef`(`type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_FieldOneOfPredicate <- function (...) {
-  alt$`FieldOneOfPredicate`(...)
+alt_FieldDefWithCondition <- function (`type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`FieldDefWithCondition`(`type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_FieldRangePredicate <- function (...) {
-  alt$`FieldRangePredicate`(...)
+alt_FieldEqualPredicate <- function (`equal` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+alt$`FieldEqualPredicate`(`equal` = r_to_py(`equal`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), ...)
 }
 #' @export
-alt_Fill <- function (...) {
-  alt$`Fill`(...)
+alt_FieldOneOfPredicate <- function (`field` = alt$Undefined, `oneOf` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+alt$`FieldOneOfPredicate`(`field` = r_to_py(`field`), `oneOf` = r_to_py(`oneOf`), `timeUnit` = r_to_py(`timeUnit`), ...)
 }
 #' @export
-alt_FillValue <- function (...) {
-  alt$`FillValue`(...)
+alt_FieldRangePredicate <- function (`field` = alt$Undefined, `range` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+alt$`FieldRangePredicate`(`field` = r_to_py(`field`), `range` = r_to_py(`range`), `timeUnit` = r_to_py(`timeUnit`), ...)
 }
 #' @export
-alt_FilterTransform <- function (...) {
-  alt$`FilterTransform`(...)
+alt_Fill <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Fill`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
+}
+#' @export
+alt_FillValue <- function (`value`, `condition` = alt$Undefined, ...) {
+alt$`FillValue`(r_to_py(`value`), `condition` = r_to_py(`condition`), ...)
+}
+#' @export
+alt_FilterTransform <- function (`filter` = alt$Undefined, ...) {
+alt$`FilterTransform`(`filter` = r_to_py(`filter`), ...)
 }
 #' @export
 alt_FontStyle <- function (...) {
-  alt$`FontStyle`(...)
+alt$`FontStyle`(...)
 }
 #' @export
 alt_FontWeight <- function (...) {
-  alt$`FontWeight`(...)
+alt$`FontWeight`(...)
 }
 #' @export
 alt_FontWeightNumber <- function (...) {
-  alt$`FontWeightNumber`(...)
+alt$`FontWeightNumber`(...)
 }
 #' @export
 alt_FontWeightString <- function (...) {
-  alt$`FontWeightString`(...)
+alt$`FontWeightString`(...)
 }
 #' @export
 alt_GeoType <- function (...) {
-  alt$`GeoType`(...)
+alt$`GeoType`(...)
 }
 #' @export
-alt_HConcatChart <- function (...) {
-  alt$`HConcatChart`(...)
+alt_HConcatChart <- function (`hconcat` = character(0), ...) {
+alt$`HConcatChart`(`hconcat` = r_to_py(`hconcat`), ...)
 }
 #' @export
-alt_HConcatSpec <- function (...) {
-  alt$`HConcatSpec`(...)
+alt_HConcatSpec <- function (`hconcat` = alt$Undefined, `data` = alt$Undefined, `description` = alt$Undefined, `name` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, ...) {
+alt$`HConcatSpec`(`hconcat` = r_to_py(`hconcat`), `data` = r_to_py(`data`), `description` = r_to_py(`description`), `name` = r_to_py(`name`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), ...)
 }
 #' @export
-alt_Header <- function (...) {
-  alt$`Header`(...)
+alt_Header <- function (`format` = alt$Undefined, `labelAngle` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`Header`(`format` = r_to_py(`format`), `labelAngle` = r_to_py(`labelAngle`), `title` = r_to_py(`title`), ...)
 }
 #' @export
 alt_HorizontalAlign <- function (...) {
-  alt$`HorizontalAlign`(...)
+alt$`HorizontalAlign`(...)
 }
 #' @export
-alt_Href <- function (...) {
-  alt$`Href`(...)
+alt_Href <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Href`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_HrefValue <- function (...) {
-  alt$`HrefValue`(...)
+alt_HrefValue <- function (`value`, `condition` = alt$Undefined, ...) {
+alt$`HrefValue`(r_to_py(`value`), `condition` = r_to_py(`condition`), ...)
 }
 #' @export
-alt_InlineData <- function (...) {
-  alt$`InlineData`(...)
+alt_InlineData <- function (`values` = alt$Undefined, `format` = alt$Undefined, ...) {
+alt$`InlineData`(`values` = r_to_py(`values`), `format` = r_to_py(`format`), ...)
 }
 #' @export
 alt_InlineDataset <- function (...) {
-  alt$`InlineDataset`(...)
+alt$`InlineDataset`(...)
 }
 #' @export
 alt_Interpolate <- function (...) {
-  alt$`Interpolate`(...)
+alt$`Interpolate`(...)
 }
 #' @export
-alt_IntervalSelection <- function (...) {
-  alt$`IntervalSelection`(...)
+alt_IntervalSelection <- function (`type` = alt$Undefined, `bind` = alt$Undefined, `empty` = alt$Undefined, `encodings` = alt$Undefined, `fields` = alt$Undefined, `mark` = alt$Undefined, `on` = alt$Undefined, `resolve` = alt$Undefined, `translate` = alt$Undefined, `zoom` = alt$Undefined, ...) {
+alt$`IntervalSelection`(`type` = r_to_py(`type`), `bind` = r_to_py(`bind`), `empty` = r_to_py(`empty`), `encodings` = r_to_py(`encodings`), `fields` = r_to_py(`fields`), `mark` = r_to_py(`mark`), `on` = r_to_py(`on`), `resolve` = r_to_py(`resolve`), `translate` = r_to_py(`translate`), `zoom` = r_to_py(`zoom`), ...)
 }
 #' @export
-alt_IntervalSelectionConfig <- function (...) {
-  alt$`IntervalSelectionConfig`(...)
+alt_IntervalSelectionConfig <- function (`bind` = alt$Undefined, `empty` = alt$Undefined, `encodings` = alt$Undefined, `fields` = alt$Undefined, `mark` = alt$Undefined, `on` = alt$Undefined, `resolve` = alt$Undefined, `translate` = alt$Undefined, `zoom` = alt$Undefined, ...) {
+alt$`IntervalSelectionConfig`(`bind` = r_to_py(`bind`), `empty` = r_to_py(`empty`), `encodings` = r_to_py(`encodings`), `fields` = r_to_py(`fields`), `mark` = r_to_py(`mark`), `on` = r_to_py(`on`), `resolve` = r_to_py(`resolve`), `translate` = r_to_py(`translate`), `zoom` = r_to_py(`zoom`), ...)
 }
 #' @export
-alt_JsonDataFormat <- function (...) {
-  alt$`JsonDataFormat`(...)
+alt_JsonDataFormat <- function (`parse` = alt$Undefined, `property` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`JsonDataFormat`(`parse` = r_to_py(`parse`), `property` = r_to_py(`property`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_Key <- function (...) {
-  alt$`Key`(...)
+alt_Key <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Key`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_Latitude <- function (...) {
-  alt$`Latitude`(...)
+alt_Latitude <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Latitude`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_Latitude2 <- function (...) {
-  alt$`Latitude2`(...)
+alt_Latitude2 <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Latitude2`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_LayerChart <- function (...) {
-  alt$`LayerChart`(...)
+alt_LayerChart <- function (`data` = alt$Undefined, `layer` = character(0), ...) {
+alt$`LayerChart`(`data` = r_to_py(`data`), `layer` = r_to_py(`layer`), ...)
 }
 #' @export
-alt_LayerSpec <- function (...) {
-  alt$`LayerSpec`(...)
+alt_LayerSpec <- function (`layer` = alt$Undefined, `data` = alt$Undefined, `description` = alt$Undefined, `encoding` = alt$Undefined, `height` = alt$Undefined, `name` = alt$Undefined, `projection` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, `width` = alt$Undefined, ...) {
+alt$`LayerSpec`(`layer` = r_to_py(`layer`), `data` = r_to_py(`data`), `description` = r_to_py(`description`), `encoding` = r_to_py(`encoding`), `height` = r_to_py(`height`), `name` = r_to_py(`name`), `projection` = r_to_py(`projection`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), `width` = r_to_py(`width`), ...)
 }
 #' @export
-alt_Legend <- function (...) {
-  alt$`Legend`(...)
+alt_Legend <- function (`entryPadding` = alt$Undefined, `format` = alt$Undefined, `offset` = alt$Undefined, `orient` = alt$Undefined, `padding` = alt$Undefined, `tickCount` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, `values` = alt$Undefined, `zindex` = alt$Undefined, ...) {
+alt$`Legend`(`entryPadding` = r_to_py(`entryPadding`), `format` = r_to_py(`format`), `offset` = r_to_py(`offset`), `orient` = r_to_py(`orient`), `padding` = r_to_py(`padding`), `tickCount` = r_to_py(`tickCount`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), `values` = r_to_py(`values`), `zindex` = r_to_py(`zindex`), ...)
 }
 #' @export
-alt_LegendConfig <- function (...) {
-  alt$`LegendConfig`(...)
+alt_LegendConfig <- function (`cornerRadius` = alt$Undefined, `entryPadding` = alt$Undefined, `fillColor` = alt$Undefined, `gradientHeight` = alt$Undefined, `gradientLabelBaseline` = alt$Undefined, `gradientLabelLimit` = alt$Undefined, `gradientLabelOffset` = alt$Undefined, `gradientStrokeColor` = alt$Undefined, `gradientStrokeWidth` = alt$Undefined, `gradientWidth` = alt$Undefined, `labelAlign` = alt$Undefined, `labelBaseline` = alt$Undefined, `labelColor` = alt$Undefined, `labelFont` = alt$Undefined, `labelFontSize` = alt$Undefined, `labelLimit` = alt$Undefined, `labelOffset` = alt$Undefined, `offset` = alt$Undefined, `orient` = alt$Undefined, `padding` = alt$Undefined, `shortTimeLabels` = alt$Undefined, `strokeColor` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeWidth` = alt$Undefined, `symbolColor` = alt$Undefined, `symbolSize` = alt$Undefined, `symbolStrokeWidth` = alt$Undefined, `symbolType` = alt$Undefined, `titleAlign` = alt$Undefined, `titleBaseline` = alt$Undefined, `titleColor` = alt$Undefined, `titleFont` = alt$Undefined, `titleFontSize` = alt$Undefined, `titleFontWeight` = alt$Undefined, `titleLimit` = alt$Undefined, `titlePadding` = alt$Undefined, ...) {
+alt$`LegendConfig`(`cornerRadius` = r_to_py(`cornerRadius`), `entryPadding` = r_to_py(`entryPadding`), `fillColor` = r_to_py(`fillColor`), `gradientHeight` = r_to_py(`gradientHeight`), `gradientLabelBaseline` = r_to_py(`gradientLabelBaseline`), `gradientLabelLimit` = r_to_py(`gradientLabelLimit`), `gradientLabelOffset` = r_to_py(`gradientLabelOffset`), `gradientStrokeColor` = r_to_py(`gradientStrokeColor`), `gradientStrokeWidth` = r_to_py(`gradientStrokeWidth`), `gradientWidth` = r_to_py(`gradientWidth`), `labelAlign` = r_to_py(`labelAlign`), `labelBaseline` = r_to_py(`labelBaseline`), `labelColor` = r_to_py(`labelColor`), `labelFont` = r_to_py(`labelFont`), `labelFontSize` = r_to_py(`labelFontSize`), `labelLimit` = r_to_py(`labelLimit`), `labelOffset` = r_to_py(`labelOffset`), `offset` = r_to_py(`offset`), `orient` = r_to_py(`orient`), `padding` = r_to_py(`padding`), `shortTimeLabels` = r_to_py(`shortTimeLabels`), `strokeColor` = r_to_py(`strokeColor`), `strokeDash` = r_to_py(`strokeDash`), `strokeWidth` = r_to_py(`strokeWidth`), `symbolColor` = r_to_py(`symbolColor`), `symbolSize` = r_to_py(`symbolSize`), `symbolStrokeWidth` = r_to_py(`symbolStrokeWidth`), `symbolType` = r_to_py(`symbolType`), `titleAlign` = r_to_py(`titleAlign`), `titleBaseline` = r_to_py(`titleBaseline`), `titleColor` = r_to_py(`titleColor`), `titleFont` = r_to_py(`titleFont`), `titleFontSize` = r_to_py(`titleFontSize`), `titleFontWeight` = r_to_py(`titleFontWeight`), `titleLimit` = r_to_py(`titleLimit`), `titlePadding` = r_to_py(`titlePadding`), ...)
 }
 #' @export
 alt_LegendOrient <- function (...) {
-  alt$`LegendOrient`(...)
+alt$`LegendOrient`(...)
 }
 #' @export
-alt_LegendResolveMap <- function (...) {
-  alt$`LegendResolveMap`(...)
+alt_LegendResolveMap <- function (`color` = alt$Undefined, `fill` = alt$Undefined, `opacity` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, ...) {
+alt$`LegendResolveMap`(`color` = r_to_py(`color`), `fill` = r_to_py(`fill`), `opacity` = r_to_py(`opacity`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), ...)
+}
+#' @export
+alt_LineConfig <- function (`align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+alt$`LineConfig`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
 }
 #' @export
 alt_LocalMultiTimeUnit <- function (...) {
-  alt$`LocalMultiTimeUnit`(...)
+alt$`LocalMultiTimeUnit`(...)
 }
 #' @export
 alt_LocalSingleTimeUnit <- function (...) {
-  alt$`LocalSingleTimeUnit`(...)
+alt$`LocalSingleTimeUnit`(...)
 }
 #' @export
 alt_LogicalAndPredicate <- function (...) {
-  alt$`LogicalAndPredicate`(...)
+alt$`LogicalAndPredicate`(...)
 }
 #' @export
 alt_LogicalNotPredicate <- function (...) {
-  alt$`LogicalNotPredicate`(...)
+alt$`LogicalNotPredicate`(...)
 }
 #' @export
 alt_LogicalOperandPredicate <- function (...) {
-  alt$`LogicalOperandPredicate`(...)
+alt$`LogicalOperandPredicate`(...)
 }
 #' @export
 alt_LogicalOrPredicate <- function (...) {
-  alt$`LogicalOrPredicate`(...)
+alt$`LogicalOrPredicate`(...)
 }
 #' @export
-alt_Longitude <- function (...) {
-  alt$`Longitude`(...)
+alt_Longitude <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Longitude`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_Longitude2 <- function (...) {
-  alt$`Longitude2`(...)
+alt_Longitude2 <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Longitude2`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_LookupData <- function (...) {
-  alt$`LookupData`(...)
+alt_LookupData <- function (`data` = alt$Undefined, `key` = alt$Undefined, `fields` = alt$Undefined, ...) {
+alt$`LookupData`(`data` = r_to_py(`data`), `key` = r_to_py(`key`), `fields` = r_to_py(`fields`), ...)
 }
 #' @export
-alt_LookupTransform <- function (...) {
-  alt$`LookupTransform`(...)
+alt_LookupTransform <- function (`lookup` = alt$Undefined, `default` = alt$Undefined, ...) {
+alt$`LookupTransform`(`lookup` = r_to_py(`lookup`), `default` = r_to_py(`default`), ...)
 }
 #' @export
 alt_Mark <- function (...) {
-  alt$`Mark`(...)
+alt$`Mark`(...)
 }
 #' @export
-alt_MarkConfig <- function (...) {
-  alt$`MarkConfig`(...)
+alt_MarkConfig <- function (`align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+alt$`MarkConfig`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
 }
 #' @export
-alt_MarkDef <- function (...) {
-  alt$`MarkDef`(...)
+alt_MarkDef <- function (`type` = alt$Undefined, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+alt$`MarkDef`(`type` = r_to_py(`type`), `align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
 }
 #' @export
-alt_MarkPropFieldDefWithCondition <- function (...) {
-  alt$`MarkPropFieldDefWithCondition`(...)
+alt_MarkPropFieldDefWithCondition <- function (`type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`MarkPropFieldDefWithCondition`(`type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_MarkPropValueDefWithCondition <- function (...) {
-  alt$`MarkPropValueDefWithCondition`(...)
+alt_MarkPropValueDefWithCondition <- function (`condition` = alt$Undefined, `value` = alt$Undefined, ...) {
+alt$`MarkPropValueDefWithCondition`(`condition` = r_to_py(`condition`), `value` = r_to_py(`value`), ...)
+}
+#' @export
+alt_MarkProperties <- function (`align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+alt$`MarkProperties`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+}
+#' @export
+alt_MaxRowsError <- function () {
+alt$`MaxRowsError`()
 }
 #' @export
 alt_Month <- function (...) {
-  alt$`Month`(...)
+alt$`Month`(...)
 }
 #' @export
-alt_MultiSelection <- function (...) {
-  alt$`MultiSelection`(...)
+alt_MultiSelection <- function (`type` = alt$Undefined, `empty` = alt$Undefined, `encodings` = alt$Undefined, `fields` = alt$Undefined, `nearest` = alt$Undefined, `on` = alt$Undefined, `resolve` = alt$Undefined, `toggle` = alt$Undefined, ...) {
+alt$`MultiSelection`(`type` = r_to_py(`type`), `empty` = r_to_py(`empty`), `encodings` = r_to_py(`encodings`), `fields` = r_to_py(`fields`), `nearest` = r_to_py(`nearest`), `on` = r_to_py(`on`), `resolve` = r_to_py(`resolve`), `toggle` = r_to_py(`toggle`), ...)
 }
 #' @export
-alt_MultiSelectionConfig <- function (...) {
-  alt$`MultiSelectionConfig`(...)
+alt_MultiSelectionConfig <- function (`empty` = alt$Undefined, `encodings` = alt$Undefined, `fields` = alt$Undefined, `nearest` = alt$Undefined, `on` = alt$Undefined, `resolve` = alt$Undefined, `toggle` = alt$Undefined, ...) {
+alt$`MultiSelectionConfig`(`empty` = r_to_py(`empty`), `encodings` = r_to_py(`encodings`), `fields` = r_to_py(`fields`), `nearest` = r_to_py(`nearest`), `on` = r_to_py(`on`), `resolve` = r_to_py(`resolve`), `toggle` = r_to_py(`toggle`), ...)
 }
 #' @export
 alt_MultiTimeUnit <- function (...) {
-  alt$`MultiTimeUnit`(...)
+alt$`MultiTimeUnit`(...)
 }
 #' @export
-alt_NamedData <- function (...) {
-  alt$`NamedData`(...)
+alt_NamedData <- function (`name` = alt$Undefined, `format` = alt$Undefined, ...) {
+alt$`NamedData`(`name` = r_to_py(`name`), `format` = r_to_py(`format`), ...)
+}
+#' @export
+alt_NamedSelection <- function (...) {
+alt$`NamedSelection`(...)
 }
 #' @export
 alt_NiceTime <- function (...) {
-  alt$`NiceTime`(...)
+alt$`NiceTime`(...)
 }
 #' @export
-alt_Opacity <- function (...) {
-  alt$`Opacity`(...)
+alt_Opacity <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Opacity`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_OpacityValue <- function (...) {
-  alt$`OpacityValue`(...)
+alt_OpacityValue <- function (`value`, `condition` = alt$Undefined, ...) {
+alt$`OpacityValue`(r_to_py(`value`), `condition` = r_to_py(`condition`), ...)
 }
 #' @export
-alt_Order <- function (...) {
-  alt$`Order`(...)
+alt_Order <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Order`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_OrderFieldDef <- function (...) {
-  alt$`OrderFieldDef`(...)
+alt_OrderFieldDef <- function (`type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`OrderFieldDef`(`type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
 alt_Orient <- function (...) {
-  alt$`Orient`(...)
+alt$`Orient`(...)
 }
 #' @export
 alt_Padding <- function (...) {
-  alt$`Padding`(...)
+alt$`Padding`(...)
 }
 #' @export
-alt_PositionFieldDef <- function (...) {
-  alt$`PositionFieldDef`(...)
+alt_PositionFieldDef <- function (`type` = alt$Undefined, `aggregate` = alt$Undefined, `axis` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `stack` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`PositionFieldDef`(`type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `axis` = r_to_py(`axis`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `stack` = r_to_py(`stack`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
 alt_Predicate <- function (...) {
-  alt$`Predicate`(...)
+alt$`Predicate`(...)
 }
 #' @export
-alt_Projection <- function (...) {
-  alt$`Projection`(...)
+alt_Projection <- function (`center` = alt$Undefined, `clipAngle` = alt$Undefined, `clipExtent` = alt$Undefined, `coefficient` = alt$Undefined, `distance` = alt$Undefined, `fraction` = alt$Undefined, `lobes` = alt$Undefined, `parallel` = alt$Undefined, `precision` = alt$Undefined, `radius` = alt$Undefined, `ratio` = alt$Undefined, `rotate` = alt$Undefined, `spacing` = alt$Undefined, `tilt` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Projection`(`center` = r_to_py(`center`), `clipAngle` = r_to_py(`clipAngle`), `clipExtent` = r_to_py(`clipExtent`), `coefficient` = r_to_py(`coefficient`), `distance` = r_to_py(`distance`), `fraction` = r_to_py(`fraction`), `lobes` = r_to_py(`lobes`), `parallel` = r_to_py(`parallel`), `precision` = r_to_py(`precision`), `radius` = r_to_py(`radius`), `ratio` = r_to_py(`ratio`), `rotate` = r_to_py(`rotate`), `spacing` = r_to_py(`spacing`), `tilt` = r_to_py(`tilt`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_ProjectionConfig <- function (...) {
-  alt$`ProjectionConfig`(...)
+alt_ProjectionConfig <- function (`center` = alt$Undefined, `clipAngle` = alt$Undefined, `clipExtent` = alt$Undefined, `coefficient` = alt$Undefined, `distance` = alt$Undefined, `fraction` = alt$Undefined, `lobes` = alt$Undefined, `parallel` = alt$Undefined, `precision` = alt$Undefined, `radius` = alt$Undefined, `ratio` = alt$Undefined, `rotate` = alt$Undefined, `spacing` = alt$Undefined, `tilt` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`ProjectionConfig`(`center` = r_to_py(`center`), `clipAngle` = r_to_py(`clipAngle`), `clipExtent` = r_to_py(`clipExtent`), `coefficient` = r_to_py(`coefficient`), `distance` = r_to_py(`distance`), `fraction` = r_to_py(`fraction`), `lobes` = r_to_py(`lobes`), `parallel` = r_to_py(`parallel`), `precision` = r_to_py(`precision`), `radius` = r_to_py(`radius`), `ratio` = r_to_py(`ratio`), `rotate` = r_to_py(`rotate`), `spacing` = r_to_py(`spacing`), `tilt` = r_to_py(`tilt`), `type` = r_to_py(`type`), ...)
 }
 #' @export
 alt_ProjectionType <- function (...) {
-  alt$`ProjectionType`(...)
+alt$`ProjectionType`(...)
 }
 #' @export
-alt_RangeConfig <- function (...) {
-  alt$`RangeConfig`(...)
+alt_RangeConfig <- function (`category` = alt$Undefined, `diverging` = alt$Undefined, `heatmap` = alt$Undefined, `ordinal` = alt$Undefined, `ramp` = alt$Undefined, `symbol` = alt$Undefined, ...) {
+alt$`RangeConfig`(`category` = r_to_py(`category`), `diverging` = r_to_py(`diverging`), `heatmap` = r_to_py(`heatmap`), `ordinal` = r_to_py(`ordinal`), `ramp` = r_to_py(`ramp`), `symbol` = r_to_py(`symbol`), ...)
 }
 #' @export
 alt_RangeConfigValue <- function (...) {
-  alt$`RangeConfigValue`(...)
+alt$`RangeConfigValue`(...)
 }
 #' @export
-alt_Repeat <- function (...) {
-  alt$`Repeat`(...)
+alt_Repeat <- function (`column` = alt$Undefined, `row` = alt$Undefined, ...) {
+alt$`Repeat`(`column` = r_to_py(`column`), `row` = r_to_py(`row`), ...)
 }
 #' @export
-alt_RepeatChart <- function (...) {
-  alt$`RepeatChart`(...)
+alt_RepeatChart <- function (`spec` = alt$Undefined, `data` = alt$Undefined, `repeat` = alt$Undefined, ...) {
+alt$`RepeatChart`(`spec` = r_to_py(`spec`), `data` = r_to_py(`data`), `repeat` = r_to_py(`repeat`), ...)
 }
 #' @export
-alt_RepeatRef <- function (...) {
-  alt$`RepeatRef`(...)
+alt_RepeatRef <- function (`repeat` = alt$Undefined, ...) {
+alt$`RepeatRef`(`repeat` = r_to_py(`repeat`), ...)
 }
 #' @export
-alt_RepeatSpec <- function (...) {
-  alt$`RepeatSpec`(...)
+alt_RepeatSpec <- function (`repeat` = alt$Undefined, `spec` = alt$Undefined, `data` = alt$Undefined, `description` = alt$Undefined, `name` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, ...) {
+alt$`RepeatSpec`(`repeat` = r_to_py(`repeat`), `spec` = r_to_py(`spec`), `data` = r_to_py(`data`), `description` = r_to_py(`description`), `name` = r_to_py(`name`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), ...)
 }
 #' @export
-alt_Resolve <- function (...) {
-  alt$`Resolve`(...)
+alt_Resolve <- function (`axis` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, ...) {
+alt$`Resolve`(`axis` = r_to_py(`axis`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), ...)
 }
 #' @export
 alt_ResolveMode <- function (...) {
-  alt$`ResolveMode`(...)
+alt$`ResolveMode`(...)
 }
 #' @export
 alt_Root <- function (...) {
-  alt$`Root`(...)
+alt$`Root`(...)
 }
 #' @export
-alt_Row <- function (...) {
-  alt$`Row`(...)
+alt_Row <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `header` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Row`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `header` = r_to_py(`header`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_Scale <- function (...) {
-  alt$`Scale`(...)
+alt_Scale <- function (`base` = alt$Undefined, `clamp` = alt$Undefined, `domain` = alt$Undefined, `exponent` = alt$Undefined, `interpolate` = alt$Undefined, `nice` = alt$Undefined, `padding` = alt$Undefined, `paddingInner` = alt$Undefined, `paddingOuter` = alt$Undefined, `range` = alt$Undefined, `rangeStep` = alt$Undefined, `round` = alt$Undefined, `scheme` = alt$Undefined, `type` = alt$Undefined, `zero` = alt$Undefined, ...) {
+alt$`Scale`(`base` = r_to_py(`base`), `clamp` = r_to_py(`clamp`), `domain` = r_to_py(`domain`), `exponent` = r_to_py(`exponent`), `interpolate` = r_to_py(`interpolate`), `nice` = r_to_py(`nice`), `padding` = r_to_py(`padding`), `paddingInner` = r_to_py(`paddingInner`), `paddingOuter` = r_to_py(`paddingOuter`), `range` = r_to_py(`range`), `rangeStep` = r_to_py(`rangeStep`), `round` = r_to_py(`round`), `scheme` = r_to_py(`scheme`), `type` = r_to_py(`type`), `zero` = r_to_py(`zero`), ...)
 }
 #' @export
-alt_ScaleConfig <- function (...) {
-  alt$`ScaleConfig`(...)
+alt_ScaleConfig <- function (`bandPaddingInner` = alt$Undefined, `bandPaddingOuter` = alt$Undefined, `clamp` = alt$Undefined, `continuousPadding` = alt$Undefined, `maxBandSize` = alt$Undefined, `maxFontSize` = alt$Undefined, `maxOpacity` = alt$Undefined, `maxSize` = alt$Undefined, `maxStrokeWidth` = alt$Undefined, `minBandSize` = alt$Undefined, `minFontSize` = alt$Undefined, `minOpacity` = alt$Undefined, `minSize` = alt$Undefined, `minStrokeWidth` = alt$Undefined, `pointPadding` = alt$Undefined, `rangeStep` = alt$Undefined, `round` = alt$Undefined, `textXRangeStep` = alt$Undefined, `useUnaggregatedDomain` = alt$Undefined, ...) {
+alt$`ScaleConfig`(`bandPaddingInner` = r_to_py(`bandPaddingInner`), `bandPaddingOuter` = r_to_py(`bandPaddingOuter`), `clamp` = r_to_py(`clamp`), `continuousPadding` = r_to_py(`continuousPadding`), `maxBandSize` = r_to_py(`maxBandSize`), `maxFontSize` = r_to_py(`maxFontSize`), `maxOpacity` = r_to_py(`maxOpacity`), `maxSize` = r_to_py(`maxSize`), `maxStrokeWidth` = r_to_py(`maxStrokeWidth`), `minBandSize` = r_to_py(`minBandSize`), `minFontSize` = r_to_py(`minFontSize`), `minOpacity` = r_to_py(`minOpacity`), `minSize` = r_to_py(`minSize`), `minStrokeWidth` = r_to_py(`minStrokeWidth`), `pointPadding` = r_to_py(`pointPadding`), `rangeStep` = r_to_py(`rangeStep`), `round` = r_to_py(`round`), `textXRangeStep` = r_to_py(`textXRangeStep`), `useUnaggregatedDomain` = r_to_py(`useUnaggregatedDomain`), ...)
 }
 #' @export
 alt_ScaleInterpolate <- function (...) {
-  alt$`ScaleInterpolate`(...)
+alt$`ScaleInterpolate`(...)
 }
 #' @export
-alt_ScaleInterpolateParams <- function (...) {
-  alt$`ScaleInterpolateParams`(...)
+alt_ScaleInterpolateParams <- function (`type` = alt$Undefined, `gamma` = alt$Undefined, ...) {
+alt$`ScaleInterpolateParams`(`type` = r_to_py(`type`), `gamma` = r_to_py(`gamma`), ...)
 }
 #' @export
-alt_ScaleResolveMap <- function (...) {
-  alt$`ScaleResolveMap`(...)
+alt_ScaleResolveMap <- function (`color` = alt$Undefined, `fill` = alt$Undefined, `opacity` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `x` = alt$Undefined, `y` = alt$Undefined, ...) {
+alt$`ScaleResolveMap`(`color` = r_to_py(`color`), `fill` = r_to_py(`fill`), `opacity` = r_to_py(`opacity`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `x` = r_to_py(`x`), `y` = r_to_py(`y`), ...)
 }
 #' @export
 alt_ScaleType <- function (...) {
-  alt$`ScaleType`(...)
+alt$`ScaleType`(...)
 }
 #' @export
 alt_SchemaBase <- function (...) {
-  alt$`SchemaBase`(...)
+alt$`SchemaBase`(...)
 }
 #' @export
-alt_SchemeParams <- function (...) {
-  alt$`SchemeParams`(...)
+alt_SchemeParams <- function (`name` = alt$Undefined, `extent` = alt$Undefined, ...) {
+alt$`SchemeParams`(`name` = r_to_py(`name`), `extent` = r_to_py(`extent`), ...)
 }
 #' @export
 alt_SelectionAnd <- function (...) {
-  alt$`SelectionAnd`(...)
+alt$`SelectionAnd`(...)
 }
 #' @export
-alt_SelectionConfig <- function (...) {
-  alt$`SelectionConfig`(...)
+alt_SelectionConfig <- function (`interval` = alt$Undefined, `multi` = alt$Undefined, `single` = alt$Undefined, ...) {
+alt$`SelectionConfig`(`interval` = r_to_py(`interval`), `multi` = r_to_py(`multi`), `single` = r_to_py(`single`), ...)
 }
 #' @export
 alt_SelectionDef <- function (...) {
-  alt$`SelectionDef`(...)
+alt$`SelectionDef`(...)
 }
 #' @export
 alt_SelectionDomain <- function (...) {
-  alt$`SelectionDomain`(...)
+alt$`SelectionDomain`(...)
 }
 #' @export
 alt_SelectionMapping <- function (...) {
-  alt$`SelectionMapping`(...)
+alt$`SelectionMapping`(...)
 }
 #' @export
 alt_SelectionNot <- function (...) {
-  alt$`SelectionNot`(...)
+alt$`SelectionNot`(...)
 }
 #' @export
 alt_SelectionOperand <- function (...) {
-  alt$`SelectionOperand`(...)
+alt$`SelectionOperand`(...)
 }
 #' @export
 alt_SelectionOr <- function (...) {
-  alt$`SelectionOr`(...)
+alt$`SelectionOr`(...)
 }
 #' @export
-alt_SelectionPredicate <- function (...) {
-  alt$`SelectionPredicate`(...)
+alt_SelectionPredicate <- function (`selection` = alt$Undefined, ...) {
+alt$`SelectionPredicate`(`selection` = r_to_py(`selection`), ...)
 }
 #' @export
 alt_SelectionResolution <- function (...) {
-  alt$`SelectionResolution`(...)
+alt$`SelectionResolution`(...)
 }
 #' @export
-alt_Shape <- function (...) {
-  alt$`Shape`(...)
+alt_Shape <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Shape`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_ShapeValue <- function (...) {
-  alt$`ShapeValue`(...)
+alt_ShapeValue <- function (`value`, `condition` = alt$Undefined, ...) {
+alt$`ShapeValue`(r_to_py(`value`), `condition` = r_to_py(`condition`), ...)
 }
 #' @export
 alt_SingleDefChannel <- function (...) {
-  alt$`SingleDefChannel`(...)
+alt$`SingleDefChannel`(...)
 }
 #' @export
-alt_SingleSelection <- function (...) {
-  alt$`SingleSelection`(...)
+alt_SingleSelection <- function (`type` = alt$Undefined, `bind` = alt$Undefined, `empty` = alt$Undefined, `encodings` = alt$Undefined, `fields` = alt$Undefined, `nearest` = alt$Undefined, `on` = alt$Undefined, `resolve` = alt$Undefined, ...) {
+alt$`SingleSelection`(`type` = r_to_py(`type`), `bind` = r_to_py(`bind`), `empty` = r_to_py(`empty`), `encodings` = r_to_py(`encodings`), `fields` = r_to_py(`fields`), `nearest` = r_to_py(`nearest`), `on` = r_to_py(`on`), `resolve` = r_to_py(`resolve`), ...)
 }
 #' @export
-alt_SingleSelectionConfig <- function (...) {
-  alt$`SingleSelectionConfig`(...)
+alt_SingleSelectionConfig <- function (`bind` = alt$Undefined, `empty` = alt$Undefined, `encodings` = alt$Undefined, `fields` = alt$Undefined, `nearest` = alt$Undefined, `on` = alt$Undefined, `resolve` = alt$Undefined, ...) {
+alt$`SingleSelectionConfig`(`bind` = r_to_py(`bind`), `empty` = r_to_py(`empty`), `encodings` = r_to_py(`encodings`), `fields` = r_to_py(`fields`), `nearest` = r_to_py(`nearest`), `on` = r_to_py(`on`), `resolve` = r_to_py(`resolve`), ...)
 }
 #' @export
 alt_SingleTimeUnit <- function (...) {
-  alt$`SingleTimeUnit`(...)
+alt$`SingleTimeUnit`(...)
 }
 #' @export
-alt_Size <- function (...) {
-  alt$`Size`(...)
+alt_Size <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Size`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_SizeValue <- function (...) {
-  alt$`SizeValue`(...)
+alt_SizeValue <- function (`value`, `condition` = alt$Undefined, ...) {
+alt$`SizeValue`(r_to_py(`value`), `condition` = r_to_py(`condition`), ...)
 }
 #' @export
-alt_SortField <- function (...) {
-  alt$`SortField`(...)
+alt_SortField <- function (`op` = alt$Undefined, `field` = alt$Undefined, `order` = alt$Undefined, ...) {
+alt$`SortField`(`op` = r_to_py(`op`), `field` = r_to_py(`field`), `order` = r_to_py(`order`), ...)
 }
 #' @export
 alt_SortOrder <- function (...) {
-  alt$`SortOrder`(...)
+alt$`SortOrder`(...)
 }
 #' @export
 alt_Spec <- function (...) {
-  alt$`Spec`(...)
+alt$`Spec`(...)
 }
 #' @export
 alt_StackOffset <- function (...) {
-  alt$`StackOffset`(...)
+alt$`StackOffset`(...)
 }
 #' @export
-alt_Stroke <- function (...) {
-  alt$`Stroke`(...)
+alt_Stroke <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `legend` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Stroke`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `legend` = r_to_py(`legend`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_StrokeValue <- function (...) {
-  alt$`StrokeValue`(...)
+alt_StrokeValue <- function (`value`, `condition` = alt$Undefined, ...) {
+alt$`StrokeValue`(r_to_py(`value`), `condition` = r_to_py(`condition`), ...)
 }
 #' @export
 alt_StyleConfigIndex <- function (...) {
-  alt$`StyleConfigIndex`(...)
+alt$`StyleConfigIndex`(...)
 }
 #' @export
-alt_Text <- function (...) {
-  alt$`Text`(...)
+alt_Text <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `format` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Text`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `format` = r_to_py(`format`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_TextConfig <- function (...) {
-  alt$`TextConfig`(...)
+alt_TextConfig <- function (`align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `shortTimeLabels` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+alt$`TextConfig`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `shortTimeLabels` = r_to_py(`shortTimeLabels`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
 }
 #' @export
-alt_TextFieldDefWithCondition <- function (...) {
-  alt$`TextFieldDefWithCondition`(...)
+alt_TextFieldDef <- function (`type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `format` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`TextFieldDef`(`type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `format` = r_to_py(`format`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_TextValue <- function (...) {
-  alt$`TextValue`(...)
+alt_TextFieldDefWithCondition <- function (`type` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `format` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, ...) {
+alt$`TextFieldDefWithCondition`(`type` = r_to_py(`type`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `format` = r_to_py(`format`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), ...)
 }
 #' @export
-alt_TextValueDefWithCondition <- function (...) {
-  alt$`TextValueDefWithCondition`(...)
+alt_TextValue <- function (`value`, `condition` = alt$Undefined, ...) {
+alt$`TextValue`(r_to_py(`value`), `condition` = r_to_py(`condition`), ...)
 }
 #' @export
-alt_TickConfig <- function (...) {
-  alt$`TickConfig`(...)
+alt_TextValueDefWithCondition <- function (`condition` = alt$Undefined, `value` = alt$Undefined, ...) {
+alt$`TextValueDefWithCondition`(`condition` = r_to_py(`condition`), `value` = r_to_py(`value`), ...)
+}
+#' @export
+alt_TickConfig <- function (`align` = alt$Undefined, `angle` = alt$Undefined, `bandSize` = alt$Undefined, `baseline` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, `thickness` = alt$Undefined, ...) {
+alt$`TickConfig`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `bandSize` = r_to_py(`bandSize`), `baseline` = r_to_py(`baseline`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), `thickness` = r_to_py(`thickness`), ...)
 }
 #' @export
 alt_TimeUnit <- function (...) {
-  alt$`TimeUnit`(...)
+alt$`TimeUnit`(...)
 }
 #' @export
-alt_TimeUnitTransform <- function (...) {
-  alt$`TimeUnitTransform`(...)
+alt_TimeUnitTransform <- function (`field` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+alt$`TimeUnitTransform`(`field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), ...)
 }
 #' @export
 alt_TitleOrient <- function (...) {
-  alt$`TitleOrient`(...)
+alt$`TitleOrient`(...)
 }
 #' @export
-alt_TitleParams <- function (...) {
-  alt$`TitleParams`(...)
+alt_TitleParams <- function (`text` = alt$Undefined, `anchor` = alt$Undefined, `offset` = alt$Undefined, `orient` = alt$Undefined, `style` = alt$Undefined, ...) {
+alt$`TitleParams`(`text` = r_to_py(`text`), `anchor` = r_to_py(`anchor`), `offset` = r_to_py(`offset`), `orient` = r_to_py(`orient`), `style` = r_to_py(`style`), ...)
 }
 #' @export
-alt_Tooltip <- function (...) {
-  alt$`Tooltip`(...)
+alt_Tooltip <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `condition` = alt$Undefined, `field` = alt$Undefined, `format` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Tooltip`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `condition` = r_to_py(`condition`), `field` = r_to_py(`field`), `format` = r_to_py(`format`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_TooltipValue <- function (...) {
-  alt$`TooltipValue`(...)
+alt_TooltipValue <- function (`value`, `condition` = alt$Undefined, ...) {
+alt$`TooltipValue`(r_to_py(`value`), `condition` = r_to_py(`condition`), ...)
 }
 #' @export
-alt_TopLevelFacetSpec <- function (...) {
-  alt$`TopLevelFacetSpec`(...)
+alt_TopLevelFacetSpec <- function (`data` = alt$Undefined, `facet` = alt$Undefined, `spec` = alt$Undefined, `autosize` = alt$Undefined, `background` = alt$Undefined, `config` = alt$Undefined, `datasets` = alt$Undefined, `description` = alt$Undefined, `name` = alt$Undefined, `padding` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, ...) {
+alt$`TopLevelFacetSpec`(`data` = r_to_py(`data`), `facet` = r_to_py(`facet`), `spec` = r_to_py(`spec`), `autosize` = r_to_py(`autosize`), `background` = r_to_py(`background`), `config` = r_to_py(`config`), `datasets` = r_to_py(`datasets`), `description` = r_to_py(`description`), `name` = r_to_py(`name`), `padding` = r_to_py(`padding`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), ...)
 }
 #' @export
-alt_TopLevelFacetedUnitSpec <- function (...) {
-  alt$`TopLevelFacetedUnitSpec`(...)
+alt_TopLevelFacetedUnitSpec <- function (`data` = alt$Undefined, `mark` = alt$Undefined, `autosize` = alt$Undefined, `background` = alt$Undefined, `config` = alt$Undefined, `datasets` = alt$Undefined, `description` = alt$Undefined, `encoding` = alt$Undefined, `height` = alt$Undefined, `name` = alt$Undefined, `padding` = alt$Undefined, `projection` = alt$Undefined, `selection` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, `width` = alt$Undefined, ...) {
+alt$`TopLevelFacetedUnitSpec`(`data` = r_to_py(`data`), `mark` = r_to_py(`mark`), `autosize` = r_to_py(`autosize`), `background` = r_to_py(`background`), `config` = r_to_py(`config`), `datasets` = r_to_py(`datasets`), `description` = r_to_py(`description`), `encoding` = r_to_py(`encoding`), `height` = r_to_py(`height`), `name` = r_to_py(`name`), `padding` = r_to_py(`padding`), `projection` = r_to_py(`projection`), `selection` = r_to_py(`selection`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), `width` = r_to_py(`width`), ...)
 }
 #' @export
-alt_TopLevelHConcatSpec <- function (...) {
-  alt$`TopLevelHConcatSpec`(...)
+alt_TopLevelHConcatSpec <- function (`hconcat` = alt$Undefined, `autosize` = alt$Undefined, `background` = alt$Undefined, `config` = alt$Undefined, `data` = alt$Undefined, `datasets` = alt$Undefined, `description` = alt$Undefined, `name` = alt$Undefined, `padding` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, ...) {
+alt$`TopLevelHConcatSpec`(`hconcat` = r_to_py(`hconcat`), `autosize` = r_to_py(`autosize`), `background` = r_to_py(`background`), `config` = r_to_py(`config`), `data` = r_to_py(`data`), `datasets` = r_to_py(`datasets`), `description` = r_to_py(`description`), `name` = r_to_py(`name`), `padding` = r_to_py(`padding`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), ...)
 }
 #' @export
-alt_TopLevelLayerSpec <- function (...) {
-  alt$`TopLevelLayerSpec`(...)
+alt_TopLevelLayerSpec <- function (`layer` = alt$Undefined, `autosize` = alt$Undefined, `background` = alt$Undefined, `config` = alt$Undefined, `data` = alt$Undefined, `datasets` = alt$Undefined, `description` = alt$Undefined, `encoding` = alt$Undefined, `height` = alt$Undefined, `name` = alt$Undefined, `padding` = alt$Undefined, `projection` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, `width` = alt$Undefined, ...) {
+alt$`TopLevelLayerSpec`(`layer` = r_to_py(`layer`), `autosize` = r_to_py(`autosize`), `background` = r_to_py(`background`), `config` = r_to_py(`config`), `data` = r_to_py(`data`), `datasets` = r_to_py(`datasets`), `description` = r_to_py(`description`), `encoding` = r_to_py(`encoding`), `height` = r_to_py(`height`), `name` = r_to_py(`name`), `padding` = r_to_py(`padding`), `projection` = r_to_py(`projection`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), `width` = r_to_py(`width`), ...)
 }
 #' @export
-alt_TopLevelMixin <- function (...) {
-  alt$`TopLevelMixin`(...)
+alt_TopLevelMixin <- function () {
+alt$`TopLevelMixin`()
 }
 #' @export
-alt_TopLevelRepeatSpec <- function (...) {
-  alt$`TopLevelRepeatSpec`(...)
+alt_TopLevelRepeatSpec <- function (`repeat` = alt$Undefined, `spec` = alt$Undefined, `autosize` = alt$Undefined, `background` = alt$Undefined, `config` = alt$Undefined, `data` = alt$Undefined, `datasets` = alt$Undefined, `description` = alt$Undefined, `name` = alt$Undefined, `padding` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, ...) {
+alt$`TopLevelRepeatSpec`(`repeat` = r_to_py(`repeat`), `spec` = r_to_py(`spec`), `autosize` = r_to_py(`autosize`), `background` = r_to_py(`background`), `config` = r_to_py(`config`), `data` = r_to_py(`data`), `datasets` = r_to_py(`datasets`), `description` = r_to_py(`description`), `name` = r_to_py(`name`), `padding` = r_to_py(`padding`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), ...)
 }
 #' @export
-alt_TopLevelVConcatSpec <- function (...) {
-  alt$`TopLevelVConcatSpec`(...)
+alt_TopLevelSpec <- function (...) {
+alt$`TopLevelSpec`(...)
 }
 #' @export
-alt_TopoDataFormat <- function (...) {
-  alt$`TopoDataFormat`(...)
+alt_TopLevelVConcatSpec <- function (`vconcat` = alt$Undefined, `autosize` = alt$Undefined, `background` = alt$Undefined, `config` = alt$Undefined, `data` = alt$Undefined, `datasets` = alt$Undefined, `description` = alt$Undefined, `name` = alt$Undefined, `padding` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, ...) {
+alt$`TopLevelVConcatSpec`(`vconcat` = r_to_py(`vconcat`), `autosize` = r_to_py(`autosize`), `background` = r_to_py(`background`), `config` = r_to_py(`config`), `data` = r_to_py(`data`), `datasets` = r_to_py(`datasets`), `description` = r_to_py(`description`), `name` = r_to_py(`name`), `padding` = r_to_py(`padding`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), ...)
+}
+#' @export
+alt_TopoDataFormat <- function (`feature` = alt$Undefined, `mesh` = alt$Undefined, `parse` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`TopoDataFormat`(`feature` = r_to_py(`feature`), `mesh` = r_to_py(`mesh`), `parse` = r_to_py(`parse`), `type` = r_to_py(`type`), ...)
 }
 #' @export
 alt_Transform <- function (...) {
-  alt$`Transform`(...)
+alt$`Transform`(...)
 }
 #' @export
 alt_Type <- function (...) {
-  alt$`Type`(...)
+alt$`Type`(...)
 }
 #' @export
-alt_UrlData <- function (...) {
-  alt$`UrlData`(...)
+alt_UrlData <- function (`url` = alt$Undefined, `format` = alt$Undefined, ...) {
+alt$`UrlData`(`url` = r_to_py(`url`), `format` = r_to_py(`format`), ...)
 }
 #' @export
 alt_UtcMultiTimeUnit <- function (...) {
-  alt$`UtcMultiTimeUnit`(...)
+alt$`UtcMultiTimeUnit`(...)
 }
 #' @export
 alt_UtcSingleTimeUnit <- function (...) {
-  alt$`UtcSingleTimeUnit`(...)
+alt$`UtcSingleTimeUnit`(...)
 }
 #' @export
-alt_VConcatChart <- function (...) {
-  alt$`VConcatChart`(...)
+alt_VConcatChart <- function (`vconcat` = character(0), ...) {
+alt$`VConcatChart`(`vconcat` = r_to_py(`vconcat`), ...)
 }
 #' @export
-alt_VConcatSpec <- function (...) {
-  alt$`VConcatSpec`(...)
+alt_VConcatSpec <- function (`vconcat` = alt$Undefined, `data` = alt$Undefined, `description` = alt$Undefined, `name` = alt$Undefined, `resolve` = alt$Undefined, `title` = alt$Undefined, `transform` = alt$Undefined, ...) {
+alt$`VConcatSpec`(`vconcat` = r_to_py(`vconcat`), `data` = r_to_py(`data`), `description` = r_to_py(`description`), `name` = r_to_py(`name`), `resolve` = r_to_py(`resolve`), `title` = r_to_py(`title`), `transform` = r_to_py(`transform`), ...)
 }
 #' @export
-alt_ValueDef <- function (...) {
-  alt$`ValueDef`(...)
+alt_ValueChannelMixin <- function () {
+alt$`ValueChannelMixin`()
 }
 #' @export
-alt_ValueDefWithCondition <- function (...) {
-  alt$`ValueDefWithCondition`(...)
+alt_ValueDef <- function (`value` = alt$Undefined, ...) {
+alt$`ValueDef`(`value` = r_to_py(`value`), ...)
 }
 #' @export
-alt_VegaLite <- function (...) {
-  alt$`VegaLite`(...)
+alt_ValueDefWithCondition <- function (`condition` = alt$Undefined, `value` = alt$Undefined, ...) {
+alt$`ValueDefWithCondition`(`condition` = r_to_py(`condition`), `value` = r_to_py(`value`), ...)
+}
+#' @export
+alt_VegaLite <- function (`spec`, `validate` = FALSE) {
+alt$`VegaLite`(r_to_py(`spec`), `validate` = r_to_py(`validate`))
 }
 #' @export
 alt_VegaLiteSchema <- function (...) {
-  alt$`VegaLiteSchema`(...)
+alt$`VegaLiteSchema`(...)
 }
 #' @export
 alt_VerticalAlign <- function (...) {
-  alt$`VerticalAlign`(...)
+alt$`VerticalAlign`(...)
 }
 #' @export
-alt_VgAxisConfig <- function (...) {
-  alt$`VgAxisConfig`(...)
+alt_VgAxisConfig <- function (`bandPosition` = alt$Undefined, `domain` = alt$Undefined, `domainColor` = alt$Undefined, `domainWidth` = alt$Undefined, `grid` = alt$Undefined, `gridColor` = alt$Undefined, `gridDash` = alt$Undefined, `gridOpacity` = alt$Undefined, `gridWidth` = alt$Undefined, `labelAngle` = alt$Undefined, `labelBound` = alt$Undefined, `labelColor` = alt$Undefined, `labelFlush` = alt$Undefined, `labelFont` = alt$Undefined, `labelFontSize` = alt$Undefined, `labelLimit` = alt$Undefined, `labelOverlap` = alt$Undefined, `labelPadding` = alt$Undefined, `labels` = alt$Undefined, `maxExtent` = alt$Undefined, `minExtent` = alt$Undefined, `tickColor` = alt$Undefined, `tickRound` = alt$Undefined, `tickSize` = alt$Undefined, `tickWidth` = alt$Undefined, `ticks` = alt$Undefined, `titleAlign` = alt$Undefined, `titleAngle` = alt$Undefined, `titleBaseline` = alt$Undefined, `titleColor` = alt$Undefined, `titleFont` = alt$Undefined, `titleFontSize` = alt$Undefined, `titleFontWeight` = alt$Undefined, `titleLimit` = alt$Undefined, `titleMaxLength` = alt$Undefined, `titlePadding` = alt$Undefined, `titleX` = alt$Undefined, `titleY` = alt$Undefined, ...) {
+alt$`VgAxisConfig`(`bandPosition` = r_to_py(`bandPosition`), `domain` = r_to_py(`domain`), `domainColor` = r_to_py(`domainColor`), `domainWidth` = r_to_py(`domainWidth`), `grid` = r_to_py(`grid`), `gridColor` = r_to_py(`gridColor`), `gridDash` = r_to_py(`gridDash`), `gridOpacity` = r_to_py(`gridOpacity`), `gridWidth` = r_to_py(`gridWidth`), `labelAngle` = r_to_py(`labelAngle`), `labelBound` = r_to_py(`labelBound`), `labelColor` = r_to_py(`labelColor`), `labelFlush` = r_to_py(`labelFlush`), `labelFont` = r_to_py(`labelFont`), `labelFontSize` = r_to_py(`labelFontSize`), `labelLimit` = r_to_py(`labelLimit`), `labelOverlap` = r_to_py(`labelOverlap`), `labelPadding` = r_to_py(`labelPadding`), `labels` = r_to_py(`labels`), `maxExtent` = r_to_py(`maxExtent`), `minExtent` = r_to_py(`minExtent`), `tickColor` = r_to_py(`tickColor`), `tickRound` = r_to_py(`tickRound`), `tickSize` = r_to_py(`tickSize`), `tickWidth` = r_to_py(`tickWidth`), `ticks` = r_to_py(`ticks`), `titleAlign` = r_to_py(`titleAlign`), `titleAngle` = r_to_py(`titleAngle`), `titleBaseline` = r_to_py(`titleBaseline`), `titleColor` = r_to_py(`titleColor`), `titleFont` = r_to_py(`titleFont`), `titleFontSize` = r_to_py(`titleFontSize`), `titleFontWeight` = r_to_py(`titleFontWeight`), `titleLimit` = r_to_py(`titleLimit`), `titleMaxLength` = r_to_py(`titleMaxLength`), `titlePadding` = r_to_py(`titlePadding`), `titleX` = r_to_py(`titleX`), `titleY` = r_to_py(`titleY`), ...)
 }
 #' @export
 alt_VgBinding <- function (...) {
-  alt$`VgBinding`(...)
+alt$`VgBinding`(...)
 }
 #' @export
-alt_VgCheckboxBinding <- function (...) {
-  alt$`VgCheckboxBinding`(...)
+alt_VgCheckboxBinding <- function (`input` = alt$Undefined, `element` = alt$Undefined, ...) {
+alt$`VgCheckboxBinding`(`input` = r_to_py(`input`), `element` = r_to_py(`element`), ...)
+}
+#' @export
+alt_VgComparatorOrder <- function (...) {
+alt$`VgComparatorOrder`(...)
 }
 #' @export
 alt_VgEventStream <- function (...) {
-  alt$`VgEventStream`(...)
+alt$`VgEventStream`(...)
 }
 #' @export
-alt_VgGenericBinding <- function (...) {
-  alt$`VgGenericBinding`(...)
+alt_VgGenericBinding <- function (`input` = alt$Undefined, `element` = alt$Undefined, ...) {
+alt$`VgGenericBinding`(`input` = r_to_py(`input`), `element` = r_to_py(`element`), ...)
 }
 #' @export
-alt_VgMarkConfig <- function (...) {
-  alt$`VgMarkConfig`(...)
+alt_VgMarkConfig <- function (`align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+alt$`VgMarkConfig`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
 }
 #' @export
 alt_VgProjectionType <- function (...) {
-  alt$`VgProjectionType`(...)
+alt$`VgProjectionType`(...)
 }
 #' @export
-alt_VgRadioBinding <- function (...) {
-  alt$`VgRadioBinding`(...)
+alt_VgRadioBinding <- function (`input` = alt$Undefined, `options` = alt$Undefined, `element` = alt$Undefined, ...) {
+alt$`VgRadioBinding`(`input` = r_to_py(`input`), `options` = r_to_py(`options`), `element` = r_to_py(`element`), ...)
 }
 #' @export
-alt_VgRangeBinding <- function (...) {
-  alt$`VgRangeBinding`(...)
+alt_VgRangeBinding <- function (`input` = alt$Undefined, `element` = alt$Undefined, `max` = alt$Undefined, `min` = alt$Undefined, `step` = alt$Undefined, ...) {
+alt$`VgRangeBinding`(`input` = r_to_py(`input`), `element` = r_to_py(`element`), `max` = r_to_py(`max`), `min` = r_to_py(`min`), `step` = r_to_py(`step`), ...)
 }
 #' @export
-alt_VgScheme <- function (...) {
-  alt$`VgScheme`(...)
+alt_VgScheme <- function (`scheme` = alt$Undefined, `count` = alt$Undefined, `extent` = alt$Undefined, ...) {
+alt$`VgScheme`(`scheme` = r_to_py(`scheme`), `count` = r_to_py(`count`), `extent` = r_to_py(`extent`), ...)
 }
 #' @export
-alt_VgSelectBinding <- function (...) {
-  alt$`VgSelectBinding`(...)
+alt_VgSelectBinding <- function (`input` = alt$Undefined, `options` = alt$Undefined, `element` = alt$Undefined, ...) {
+alt$`VgSelectBinding`(`input` = r_to_py(`input`), `options` = r_to_py(`options`), `element` = r_to_py(`element`), ...)
 }
 #' @export
-alt_VgTitleConfig <- function (...) {
-  alt$`VgTitleConfig`(...)
+alt_VgTitleConfig <- function (`anchor` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `color` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontWeight` = alt$Undefined, `limit` = alt$Undefined, `offset` = alt$Undefined, `orient` = alt$Undefined, ...) {
+alt$`VgTitleConfig`(`anchor` = r_to_py(`anchor`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `color` = r_to_py(`color`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontWeight` = r_to_py(`fontWeight`), `limit` = r_to_py(`limit`), `offset` = r_to_py(`offset`), `orient` = r_to_py(`orient`), ...)
 }
 #' @export
-alt_ViewConfig <- function (...) {
-  alt$`ViewConfig`(...)
+alt_ViewConfig <- function (`clip` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `height` = alt$Undefined, `stroke` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `width` = alt$Undefined, ...) {
+alt$`ViewConfig`(`clip` = r_to_py(`clip`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `height` = r_to_py(`height`), `stroke` = r_to_py(`stroke`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `width` = r_to_py(`width`), ...)
 }
 #' @export
-alt_X <- function (...) {
-  alt$`X`(...)
+alt_WindowFieldDef <- function (`op` = alt$Undefined, `field` = alt$Undefined, `param` = alt$Undefined, ...) {
+alt$`WindowFieldDef`(`op` = r_to_py(`op`), `field` = r_to_py(`field`), `param` = r_to_py(`param`), ...)
 }
 #' @export
-alt_X2 <- function (...) {
-  alt$`X2`(...)
+alt_WindowOnlyOp <- function (...) {
+alt$`WindowOnlyOp`(...)
 }
 #' @export
-alt_X2Value <- function (...) {
-  alt$`X2Value`(...)
+alt_WindowSortField <- function (`field` = alt$Undefined, `order` = alt$Undefined, ...) {
+alt$`WindowSortField`(`field` = r_to_py(`field`), `order` = r_to_py(`order`), ...)
 }
 #' @export
-alt_XValue <- function (...) {
-  alt$`XValue`(...)
+alt_WindowTransform <- function (`window` = alt$Undefined, `frame` = alt$Undefined, `groupby` = alt$Undefined, `ignorePeers` = alt$Undefined, `sort` = alt$Undefined, ...) {
+alt$`WindowTransform`(`window` = r_to_py(`window`), `frame` = r_to_py(`frame`), `groupby` = r_to_py(`groupby`), `ignorePeers` = r_to_py(`ignorePeers`), `sort` = r_to_py(`sort`), ...)
 }
 #' @export
-alt_Y <- function (...) {
-  alt$`Y`(...)
+alt_X <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `axis` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `stack` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`X`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `axis` = r_to_py(`axis`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `stack` = r_to_py(`stack`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_Y2 <- function (...) {
-  alt$`Y2`(...)
+alt_X2 <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`X2`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
 }
 #' @export
-alt_Y2Value <- function (...) {
-  alt$`Y2Value`(...)
+alt_X2Value <- function (`value`, ...) {
+alt$`X2Value`(r_to_py(`value`), ...)
 }
 #' @export
-alt_YValue <- function (...) {
-  alt$`YValue`(...)
+alt_XValue <- function (`value`, ...) {
+alt$`XValue`(r_to_py(`value`), ...)
+}
+#' @export
+alt_Y <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `axis` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `scale` = alt$Undefined, `sort` = alt$Undefined, `stack` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Y`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `axis` = r_to_py(`axis`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `scale` = r_to_py(`scale`), `sort` = r_to_py(`sort`), `stack` = r_to_py(`stack`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
+}
+#' @export
+alt_Y2 <- function (`shorthand` = alt$Undefined, `aggregate` = alt$Undefined, `bin` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, `title` = alt$Undefined, `type` = alt$Undefined, ...) {
+alt$`Y2`(`shorthand` = r_to_py(`shorthand`), `aggregate` = r_to_py(`aggregate`), `bin` = r_to_py(`bin`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), `title` = r_to_py(`title`), `type` = r_to_py(`type`), ...)
+}
+#' @export
+alt_Y2Value <- function (`value`, ...) {
+alt$`Y2Value`(r_to_py(`value`), ...)
+}
+#' @export
+alt_YValue <- function (`value`, ...) {
+alt$`YValue`(r_to_py(`value`), ...)
 }
 #' @export
 alt_curry <- function (...) {
-  alt$`curry`(...)
+alt$`curry`(...)
 }
 #' @export
 alt_copy <- function (pyr_object, ...) {
-  UseMethod('alt_copy', pyr_object)
+UseMethod('alt_copy', pyr_object)
 }
 #' @export
 alt_to_dict <- function (pyr_object, ...) {
-  UseMethod('alt_to_dict', pyr_object)
+UseMethod('alt_to_dict', pyr_object)
 }
 #' @export
 alt_to_json <- function (pyr_object, ...) {
-  UseMethod('alt_to_json', pyr_object)
+UseMethod('alt_to_json', pyr_object)
 }
 #' @export
 alt_configure <- function (pyr_object, ...) {
-  UseMethod('alt_configure', pyr_object)
+UseMethod('alt_configure', pyr_object)
 }
 #' @export
 alt_configure_area <- function (pyr_object, ...) {
-  UseMethod('alt_configure_area', pyr_object)
+UseMethod('alt_configure_area', pyr_object)
 }
 #' @export
 alt_configure_axis <- function (pyr_object, ...) {
-  UseMethod('alt_configure_axis', pyr_object)
+UseMethod('alt_configure_axis', pyr_object)
 }
 #' @export
 alt_configure_axisBand <- function (pyr_object, ...) {
-  UseMethod('alt_configure_axisBand', pyr_object)
+UseMethod('alt_configure_axisBand', pyr_object)
 }
 #' @export
 alt_configure_axisBottom <- function (pyr_object, ...) {
-  UseMethod('alt_configure_axisBottom', pyr_object)
+UseMethod('alt_configure_axisBottom', pyr_object)
 }
 #' @export
 alt_configure_axisLeft <- function (pyr_object, ...) {
-  UseMethod('alt_configure_axisLeft', pyr_object)
+UseMethod('alt_configure_axisLeft', pyr_object)
 }
 #' @export
 alt_configure_axisRight <- function (pyr_object, ...) {
-  UseMethod('alt_configure_axisRight', pyr_object)
+UseMethod('alt_configure_axisRight', pyr_object)
 }
 #' @export
 alt_configure_axisTop <- function (pyr_object, ...) {
-  UseMethod('alt_configure_axisTop', pyr_object)
+UseMethod('alt_configure_axisTop', pyr_object)
 }
 #' @export
 alt_configure_axisX <- function (pyr_object, ...) {
-  UseMethod('alt_configure_axisX', pyr_object)
+UseMethod('alt_configure_axisX', pyr_object)
 }
 #' @export
 alt_configure_axisY <- function (pyr_object, ...) {
-  UseMethod('alt_configure_axisY', pyr_object)
+UseMethod('alt_configure_axisY', pyr_object)
 }
 #' @export
 alt_configure_bar <- function (pyr_object, ...) {
-  UseMethod('alt_configure_bar', pyr_object)
+UseMethod('alt_configure_bar', pyr_object)
 }
 #' @export
 alt_configure_circle <- function (pyr_object, ...) {
-  UseMethod('alt_configure_circle', pyr_object)
-}
-#' @export
-alt_configure_datasets <- function (pyr_object, ...) {
-  UseMethod('alt_configure_datasets', pyr_object)
+UseMethod('alt_configure_circle', pyr_object)
 }
 #' @export
 alt_configure_geoshape <- function (pyr_object, ...) {
-  UseMethod('alt_configure_geoshape', pyr_object)
+UseMethod('alt_configure_geoshape', pyr_object)
 }
 #' @export
 alt_configure_legend <- function (pyr_object, ...) {
-  UseMethod('alt_configure_legend', pyr_object)
+UseMethod('alt_configure_legend', pyr_object)
 }
 #' @export
 alt_configure_line <- function (pyr_object, ...) {
-  UseMethod('alt_configure_line', pyr_object)
+UseMethod('alt_configure_line', pyr_object)
 }
 #' @export
 alt_configure_mark <- function (pyr_object, ...) {
-  UseMethod('alt_configure_mark', pyr_object)
-}
-#' @export
-alt_configure_padding <- function (pyr_object, ...) {
-  UseMethod('alt_configure_padding', pyr_object)
+UseMethod('alt_configure_mark', pyr_object)
 }
 #' @export
 alt_configure_point <- function (pyr_object, ...) {
-  UseMethod('alt_configure_point', pyr_object)
+UseMethod('alt_configure_point', pyr_object)
 }
 #' @export
 alt_configure_projection <- function (pyr_object, ...) {
-  UseMethod('alt_configure_projection', pyr_object)
+UseMethod('alt_configure_projection', pyr_object)
 }
 #' @export
 alt_configure_range <- function (pyr_object, ...) {
-  UseMethod('alt_configure_range', pyr_object)
+UseMethod('alt_configure_range', pyr_object)
 }
 #' @export
 alt_configure_rect <- function (pyr_object, ...) {
-  UseMethod('alt_configure_rect', pyr_object)
+UseMethod('alt_configure_rect', pyr_object)
 }
 #' @export
 alt_configure_rule <- function (pyr_object, ...) {
-  UseMethod('alt_configure_rule', pyr_object)
+UseMethod('alt_configure_rule', pyr_object)
 }
 #' @export
 alt_configure_scale <- function (pyr_object, ...) {
-  UseMethod('alt_configure_scale', pyr_object)
+UseMethod('alt_configure_scale', pyr_object)
 }
 #' @export
 alt_configure_selection <- function (pyr_object, ...) {
-  UseMethod('alt_configure_selection', pyr_object)
+UseMethod('alt_configure_selection', pyr_object)
 }
 #' @export
 alt_configure_square <- function (pyr_object, ...) {
-  UseMethod('alt_configure_square', pyr_object)
-}
-#' @export
-alt_configure_stack <- function (pyr_object, ...) {
-  UseMethod('alt_configure_stack', pyr_object)
-}
-#' @export
-alt_configure_style <- function (pyr_object, ...) {
-  UseMethod('alt_configure_style', pyr_object)
+UseMethod('alt_configure_square', pyr_object)
 }
 #' @export
 alt_configure_text <- function (pyr_object, ...) {
-  UseMethod('alt_configure_text', pyr_object)
+UseMethod('alt_configure_text', pyr_object)
 }
 #' @export
 alt_configure_tick <- function (pyr_object, ...) {
-  UseMethod('alt_configure_tick', pyr_object)
+UseMethod('alt_configure_tick', pyr_object)
 }
 #' @export
 alt_configure_title <- function (pyr_object, ...) {
-  UseMethod('alt_configure_title', pyr_object)
+UseMethod('alt_configure_title', pyr_object)
+}
+#' @export
+alt_configure_trail <- function (pyr_object, ...) {
+UseMethod('alt_configure_trail', pyr_object)
 }
 #' @export
 alt_configure_view <- function (pyr_object, ...) {
-  UseMethod('alt_configure_view', pyr_object)
+UseMethod('alt_configure_view', pyr_object)
 }
 #' @export
 alt_encode <- function (pyr_object, ...) {
-  UseMethod('alt_encode', pyr_object)
+UseMethod('alt_encode', pyr_object)
 }
 #' @export
 alt_facet <- function (pyr_object, ...) {
-  UseMethod('alt_facet', pyr_object)
+UseMethod('alt_facet', pyr_object)
 }
 #' @export
 alt_interactive <- function (pyr_object, ...) {
-  UseMethod('alt_interactive', pyr_object)
+UseMethod('alt_interactive', pyr_object)
 }
 #' @export
 alt_mark_area <- function (pyr_object, ...) {
-  UseMethod('alt_mark_area', pyr_object)
+UseMethod('alt_mark_area', pyr_object)
 }
 #' @export
 alt_mark_bar <- function (pyr_object, ...) {
-  UseMethod('alt_mark_bar', pyr_object)
+UseMethod('alt_mark_bar', pyr_object)
 }
 #' @export
 alt_mark_circle <- function (pyr_object, ...) {
-  UseMethod('alt_mark_circle', pyr_object)
+UseMethod('alt_mark_circle', pyr_object)
 }
 #' @export
 alt_mark_geoshape <- function (pyr_object, ...) {
-  UseMethod('alt_mark_geoshape', pyr_object)
+UseMethod('alt_mark_geoshape', pyr_object)
 }
 #' @export
 alt_mark_line <- function (pyr_object, ...) {
-  UseMethod('alt_mark_line', pyr_object)
+UseMethod('alt_mark_line', pyr_object)
 }
 #' @export
 alt_mark_point <- function (pyr_object, ...) {
-  UseMethod('alt_mark_point', pyr_object)
+UseMethod('alt_mark_point', pyr_object)
 }
 #' @export
 alt_mark_rect <- function (pyr_object, ...) {
-  UseMethod('alt_mark_rect', pyr_object)
+UseMethod('alt_mark_rect', pyr_object)
 }
 #' @export
 alt_mark_rule <- function (pyr_object, ...) {
-  UseMethod('alt_mark_rule', pyr_object)
+UseMethod('alt_mark_rule', pyr_object)
 }
 #' @export
 alt_mark_square <- function (pyr_object, ...) {
-  UseMethod('alt_mark_square', pyr_object)
+UseMethod('alt_mark_square', pyr_object)
 }
 #' @export
 alt_mark_text <- function (pyr_object, ...) {
-  UseMethod('alt_mark_text', pyr_object)
+UseMethod('alt_mark_text', pyr_object)
 }
 #' @export
 alt_mark_tick <- function (pyr_object, ...) {
-  UseMethod('alt_mark_tick', pyr_object)
+UseMethod('alt_mark_tick', pyr_object)
+}
+#' @export
+alt_mark_trail <- function (pyr_object, ...) {
+UseMethod('alt_mark_trail', pyr_object)
+}
+#' @export
+alt_project <- function (pyr_object, ...) {
+UseMethod('alt_project', pyr_object)
 }
 #' @export
 alt_properties <- function (pyr_object, ...) {
-  UseMethod('alt_properties', pyr_object)
+UseMethod('alt_properties', pyr_object)
 }
 #' @export
 alt_repeat <- function (pyr_object, ...) {
-  UseMethod('alt_repeat', pyr_object)
+UseMethod('alt_repeat', pyr_object)
 }
 #' @export
 alt_resolve_axis <- function (pyr_object, ...) {
-  UseMethod('alt_resolve_axis', pyr_object)
+UseMethod('alt_resolve_axis', pyr_object)
 }
 #' @export
 alt_resolve_legend <- function (pyr_object, ...) {
-  UseMethod('alt_resolve_legend', pyr_object)
+UseMethod('alt_resolve_legend', pyr_object)
 }
 #' @export
 alt_resolve_scale <- function (pyr_object, ...) {
-  UseMethod('alt_resolve_scale', pyr_object)
+UseMethod('alt_resolve_scale', pyr_object)
+}
+#' @export
+alt_save <- function (pyr_object, ...) {
+UseMethod('alt_save', pyr_object)
 }
 #' @export
 alt_savechart <- function (pyr_object, ...) {
-  UseMethod('alt_savechart', pyr_object)
+UseMethod('alt_savechart', pyr_object)
 }
 #' @export
 alt_transform_aggregate <- function (pyr_object, ...) {
-  UseMethod('alt_transform_aggregate', pyr_object)
+UseMethod('alt_transform_aggregate', pyr_object)
 }
 #' @export
 alt_transform_bin <- function (pyr_object, ...) {
-  UseMethod('alt_transform_bin', pyr_object)
+UseMethod('alt_transform_bin', pyr_object)
 }
 #' @export
 alt_transform_calculate <- function (pyr_object, ...) {
-  UseMethod('alt_transform_calculate', pyr_object)
+UseMethod('alt_transform_calculate', pyr_object)
 }
 #' @export
 alt_transform_filter <- function (pyr_object, ...) {
-  UseMethod('alt_transform_filter', pyr_object)
+UseMethod('alt_transform_filter', pyr_object)
 }
 #' @export
 alt_transform_lookup <- function (pyr_object, ...) {
-  UseMethod('alt_transform_lookup', pyr_object)
+UseMethod('alt_transform_lookup', pyr_object)
 }
 #' @export
 alt_transform_timeunit <- function (pyr_object, ...) {
-  UseMethod('alt_transform_timeunit', pyr_object)
+UseMethod('alt_transform_timeunit', pyr_object)
+}
+#' @export
+alt_transform_window <- function (pyr_object, ...) {
+UseMethod('alt_transform_window', pyr_object)
+}
+#' @export
+alt_add_layers <- function (pyr_object, ...) {
+UseMethod('alt_add_layers', pyr_object)
 }
 #' @export
 alt_ref <- function (pyr_object, ...) {
-  UseMethod('alt_ref', pyr_object)
+UseMethod('alt_ref', pyr_object)
 }
 #' @export
 alt_bind <- function (pyr_object, ...) {
-  UseMethod('alt_bind', pyr_object)
+UseMethod('alt_bind', pyr_object)
 }
 #' @export
 alt_call <- function (pyr_object, ...) {
-  UseMethod('alt_call', pyr_object)
+UseMethod('alt_call', pyr_object)
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Aggregate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Aggregate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Aggregate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Aggregate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Aggregate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Aggregate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.AggregateOp <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AggregateOp <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.AggregateOp <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AggregateOp <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.AggregateOp <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AggregateOp <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.AggregateTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AggregateTransform <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.AggregateTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AggregateTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.AggregateTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AggregateTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.AggregatedFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AggregatedFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.AggregatedFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AggregatedFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.AggregatedFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AggregatedFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Anchor <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Anchor <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Anchor <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Anchor <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Anchor <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Anchor <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.AnyMark <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AnyMark <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.AnyMark <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AnyMark <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.AnyMark <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AnyMark <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.AutoSizeParams <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AreaConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.AutoSizeParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AreaConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.AutoSizeParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AreaConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.AutosizeType <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AutoSizeParams <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.AutosizeType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AutoSizeParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.AutosizeType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AutoSizeParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Axis <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AutosizeType <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Axis <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AutosizeType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Axis <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AutosizeType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.AxisConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Axis <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.AxisConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Axis <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.AxisConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Axis <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.AxisOrient <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AxisConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.AxisOrient <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AxisConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.AxisOrient <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AxisConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.AxisResolveMap <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AxisOrient <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.AxisResolveMap <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AxisOrient <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.AxisResolveMap <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AxisOrient <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.BarConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.AxisResolveMap <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.BarConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.AxisResolveMap <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.BarConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.AxisResolveMap <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.BasicType <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.BarConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.BasicType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.BarConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.BasicType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.BarConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Bin <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.BasicType <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Bin <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.BasicType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Bin <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.BasicType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.BinParams <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Bin <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.BinParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Bin <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.BinParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Bin <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.BinTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.BinParams <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.BinTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.BinParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.BinTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.BinParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.BrushConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.BinTransform <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.BrushConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.BinTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.BrushConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.BinTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.CalculateTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.BrushConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.CalculateTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.BrushConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.CalculateTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.BrushConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.core.CalculateTransform <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.core.CalculateTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.CalculateTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
 alt_configure.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure`(...)
-  out
+out <- pyr_object$`configure`(...)
+out
 }
 #' @export
 alt_configure_area.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_area`(...)
-  out
+out <- pyr_object$`configure_area`(...)
+out
 }
 #' @export
 alt_configure_axis.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axis`(...)
-  out
+out <- pyr_object$`configure_axis`(...)
+out
 }
 #' @export
 alt_configure_axisBand.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBand`(...)
-  out
+out <- pyr_object$`configure_axisBand`(...)
+out
 }
 #' @export
 alt_configure_axisBottom.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBottom`(...)
-  out
+out <- pyr_object$`configure_axisBottom`(...)
+out
 }
 #' @export
 alt_configure_axisLeft.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisLeft`(...)
-  out
+out <- pyr_object$`configure_axisLeft`(...)
+out
 }
 #' @export
 alt_configure_axisRight.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisRight`(...)
-  out
+out <- pyr_object$`configure_axisRight`(...)
+out
 }
 #' @export
 alt_configure_axisTop.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisTop`(...)
-  out
+out <- pyr_object$`configure_axisTop`(...)
+out
 }
 #' @export
 alt_configure_axisX.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisX`(...)
-  out
+out <- pyr_object$`configure_axisX`(...)
+out
 }
 #' @export
 alt_configure_axisY.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisY`(...)
-  out
+out <- pyr_object$`configure_axisY`(...)
+out
 }
 #' @export
 alt_configure_bar.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_bar`(...)
-  out
+out <- pyr_object$`configure_bar`(...)
+out
 }
 #' @export
 alt_configure_circle.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_circle`(...)
-  out
-}
-#' @export
-alt_configure_datasets.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_datasets`(...)
-  out
+out <- pyr_object$`configure_circle`(...)
+out
 }
 #' @export
 alt_configure_geoshape.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_geoshape`(...)
-  out
+out <- pyr_object$`configure_geoshape`(...)
+out
 }
 #' @export
 alt_configure_legend.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_legend`(...)
-  out
+out <- pyr_object$`configure_legend`(...)
+out
 }
 #' @export
 alt_configure_line.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_line`(...)
-  out
+out <- pyr_object$`configure_line`(...)
+out
 }
 #' @export
 alt_configure_mark.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_mark`(...)
-  out
-}
-#' @export
-alt_configure_padding.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_padding`(...)
-  out
+out <- pyr_object$`configure_mark`(...)
+out
 }
 #' @export
 alt_configure_point.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_point`(...)
-  out
+out <- pyr_object$`configure_point`(...)
+out
 }
 #' @export
 alt_configure_projection.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_projection`(...)
-  out
+out <- pyr_object$`configure_projection`(...)
+out
 }
 #' @export
 alt_configure_range.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_range`(...)
-  out
+out <- pyr_object$`configure_range`(...)
+out
 }
 #' @export
 alt_configure_rect.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rect`(...)
-  out
+out <- pyr_object$`configure_rect`(...)
+out
 }
 #' @export
 alt_configure_rule.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rule`(...)
-  out
+out <- pyr_object$`configure_rule`(...)
+out
 }
 #' @export
 alt_configure_scale.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_scale`(...)
-  out
+out <- pyr_object$`configure_scale`(...)
+out
 }
 #' @export
 alt_configure_selection.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_selection`(...)
-  out
+out <- pyr_object$`configure_selection`(...)
+out
 }
 #' @export
 alt_configure_square.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_square`(...)
-  out
-}
-#' @export
-alt_configure_stack.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_stack`(...)
-  out
-}
-#' @export
-alt_configure_style.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_style`(...)
-  out
+out <- pyr_object$`configure_square`(...)
+out
 }
 #' @export
 alt_configure_text.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_text`(...)
-  out
+out <- pyr_object$`configure_text`(...)
+out
 }
 #' @export
 alt_configure_tick.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_tick`(...)
-  out
+out <- pyr_object$`configure_tick`(...)
+out
 }
 #' @export
 alt_configure_title.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_title`(...)
-  out
+out <- pyr_object$`configure_title`(...)
+out
+}
+#' @export
+alt_configure_trail.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
+out <- pyr_object$`configure_trail`(...)
+out
 }
 #' @export
 alt_configure_view.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_view`(...)
-  out
+out <- pyr_object$`configure_view`(...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.api.Chart <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
 alt_encode.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`encode`(...)
-  out
+out <- pyr_object$`encode`(...)
+out
 }
 #' @export
-alt_facet.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`facet`(...)
-  out
+alt_facet.altair.vegalite.v2.api.Chart <- function (pyr_object, `row` = alt$Undefined, `column` = alt$Undefined, `data` = alt$Undefined, ...) {
+out <- pyr_object$`facet`(`row` = r_to_py(`row`), `column` = r_to_py(`column`), `data` = r_to_py(`data`), ...)
+out
 }
 #' @export
-alt_interactive.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`interactive`(...)
-  out
+alt_interactive.altair.vegalite.v2.api.Chart <- function (pyr_object, `name` = character(0), `bind_x` = TRUE, `bind_y` = TRUE) {
+out <- pyr_object$`interactive`(`name` = r_to_py(`name`), `bind_x` = r_to_py(`bind_x`), `bind_y` = r_to_py(`bind_y`))
+out
 }
 #' @export
-alt_mark_area.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_area`(...)
-  out
+alt_mark_area.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_area`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_bar.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_bar`(...)
-  out
+alt_mark_bar.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_bar`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_circle.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_circle`(...)
-  out
+alt_mark_circle.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_circle`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_geoshape.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_geoshape`(...)
-  out
+alt_mark_geoshape.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_geoshape`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_line.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_line`(...)
-  out
+alt_mark_line.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_line`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_point.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_point`(...)
-  out
+alt_mark_point.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_point`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_rect.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_rect`(...)
-  out
+alt_mark_rect.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_rect`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_rule.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_rule`(...)
-  out
+alt_mark_rule.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_rule`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_square.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_square`(...)
-  out
+alt_mark_square.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_square`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_text.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_text`(...)
-  out
+alt_mark_text.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_text`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
 }
 #' @export
-alt_mark_tick.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`mark_tick`(...)
-  out
+alt_mark_tick.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_tick`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
+}
+#' @export
+alt_mark_trail.altair.vegalite.v2.api.Chart <- function (pyr_object, `align` = alt$Undefined, `angle` = alt$Undefined, `baseline` = alt$Undefined, `binSpacing` = alt$Undefined, `clip` = alt$Undefined, `color` = alt$Undefined, `cursor` = alt$Undefined, `dx` = alt$Undefined, `dy` = alt$Undefined, `fill` = alt$Undefined, `fillOpacity` = alt$Undefined, `filled` = alt$Undefined, `font` = alt$Undefined, `fontSize` = alt$Undefined, `fontStyle` = alt$Undefined, `fontWeight` = alt$Undefined, `href` = alt$Undefined, `interpolate` = alt$Undefined, `limit` = alt$Undefined, `line` = alt$Undefined, `opacity` = alt$Undefined, `orient` = alt$Undefined, `point` = alt$Undefined, `radius` = alt$Undefined, `shape` = alt$Undefined, `size` = alt$Undefined, `stroke` = alt$Undefined, `strokeCap` = alt$Undefined, `strokeDash` = alt$Undefined, `strokeDashOffset` = alt$Undefined, `strokeOpacity` = alt$Undefined, `strokeWidth` = alt$Undefined, `style` = alt$Undefined, `tension` = alt$Undefined, `text` = alt$Undefined, `theta` = alt$Undefined, ...) {
+out <- pyr_object$`mark_trail`(`align` = r_to_py(`align`), `angle` = r_to_py(`angle`), `baseline` = r_to_py(`baseline`), `binSpacing` = r_to_py(`binSpacing`), `clip` = r_to_py(`clip`), `color` = r_to_py(`color`), `cursor` = r_to_py(`cursor`), `dx` = r_to_py(`dx`), `dy` = r_to_py(`dy`), `fill` = r_to_py(`fill`), `fillOpacity` = r_to_py(`fillOpacity`), `filled` = r_to_py(`filled`), `font` = r_to_py(`font`), `fontSize` = r_to_py(`fontSize`), `fontStyle` = r_to_py(`fontStyle`), `fontWeight` = r_to_py(`fontWeight`), `href` = r_to_py(`href`), `interpolate` = r_to_py(`interpolate`), `limit` = r_to_py(`limit`), `line` = r_to_py(`line`), `opacity` = r_to_py(`opacity`), `orient` = r_to_py(`orient`), `point` = r_to_py(`point`), `radius` = r_to_py(`radius`), `shape` = r_to_py(`shape`), `size` = r_to_py(`size`), `stroke` = r_to_py(`stroke`), `strokeCap` = r_to_py(`strokeCap`), `strokeDash` = r_to_py(`strokeDash`), `strokeDashOffset` = r_to_py(`strokeDashOffset`), `strokeOpacity` = r_to_py(`strokeOpacity`), `strokeWidth` = r_to_py(`strokeWidth`), `style` = r_to_py(`style`), `tension` = r_to_py(`tension`), `text` = r_to_py(`text`), `theta` = r_to_py(`theta`), ...)
+out
+}
+#' @export
+alt_project.altair.vegalite.v2.api.Chart <- function (pyr_object, `type` = mercator, `center` = alt$Undefined, `clipAngle` = alt$Undefined, `clipExtent` = alt$Undefined, `coefficient` = alt$Undefined, `distance` = alt$Undefined, `fraction` = alt$Undefined, `lobes` = alt$Undefined, `parallel` = alt$Undefined, `precision` = alt$Undefined, `radius` = alt$Undefined, `ratio` = alt$Undefined, `rotate` = alt$Undefined, `spacing` = alt$Undefined, `tilt` = alt$Undefined, ...) {
+out <- pyr_object$`project`(`type` = r_to_py(`type`), `center` = r_to_py(`center`), `clipAngle` = r_to_py(`clipAngle`), `clipExtent` = r_to_py(`clipExtent`), `coefficient` = r_to_py(`coefficient`), `distance` = r_to_py(`distance`), `fraction` = r_to_py(`fraction`), `lobes` = r_to_py(`lobes`), `parallel` = r_to_py(`parallel`), `precision` = r_to_py(`precision`), `radius` = r_to_py(`radius`), `ratio` = r_to_py(`ratio`), `rotate` = r_to_py(`rotate`), `spacing` = r_to_py(`spacing`), `tilt` = r_to_py(`tilt`), ...)
+out
 }
 #' @export
 alt_properties.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`properties`(...)
-  out
+out <- pyr_object$`properties`(...)
+out
 }
 #' @export
-alt_repeat.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`repeat`(...)
-  out
+alt_repeat.altair.vegalite.v2.api.Chart <- function (pyr_object, `row` = alt$Undefined, `column` = alt$Undefined, ...) {
+out <- pyr_object$`repeat`(`row` = r_to_py(`row`), `column` = r_to_py(`column`), ...)
+out
 }
 #' @export
 alt_resolve_axis.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_axis`(...)
-  out
+out <- pyr_object$`resolve_axis`(...)
+out
 }
 #' @export
 alt_resolve_legend.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_legend`(...)
-  out
+out <- pyr_object$`resolve_legend`(...)
+out
 }
 #' @export
 alt_resolve_scale.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_scale`(...)
-  out
+out <- pyr_object$`resolve_scale`(...)
+out
 }
 #' @export
-alt_savechart.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`savechart`(...)
-  out
+alt_save.altair.vegalite.v2.api.Chart <- function (pyr_object, `fp`, `format` = character(0), `override_data_transformer` = TRUE, ...) {
+out <- pyr_object$`save`(r_to_py(`fp`), `format` = r_to_py(`format`), `override_data_transformer` = r_to_py(`override_data_transformer`), ...)
+out
+}
+#' @export
+alt_savechart.altair.vegalite.v2.api.Chart <- function (pyr_object, `fp`, `format` = character(0), ...) {
+out <- pyr_object$`savechart`(r_to_py(`fp`), `format` = r_to_py(`format`), ...)
+out
 }
 #' @export
 alt_to_dict.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+out <- pyr_object$`to_dict`(...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.Chart <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_transform_aggregate.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_aggregate`(...)
-  out
+alt_transform_aggregate.altair.vegalite.v2.api.Chart <- function (pyr_object, `aggregate` = alt$Undefined, `groupby` = alt$Undefined, ...) {
+out <- pyr_object$`transform_aggregate`(`aggregate` = r_to_py(`aggregate`), `groupby` = r_to_py(`groupby`), ...)
+out
 }
 #' @export
-alt_transform_bin.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_bin`(...)
-  out
+alt_transform_bin.altair.vegalite.v2.api.Chart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `bin` = TRUE, ...) {
+out <- pyr_object$`transform_bin`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `bin` = r_to_py(`bin`), ...)
+out
 }
 #' @export
-alt_transform_calculate.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_calculate`(...)
-  out
+alt_transform_calculate.altair.vegalite.v2.api.Chart <- function (pyr_object, `as_` = alt$Undefined, `calculate` = alt$Undefined, ...) {
+out <- pyr_object$`transform_calculate`(`as_` = r_to_py(`as_`), `calculate` = r_to_py(`calculate`), ...)
+out
 }
 #' @export
-alt_transform_filter.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_filter`(...)
-  out
+alt_transform_filter.altair.vegalite.v2.api.Chart <- function (pyr_object, `filter`, ...) {
+out <- pyr_object$`transform_filter`(r_to_py(`filter`), ...)
+out
 }
 #' @export
-alt_transform_lookup.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_lookup`(...)
-  out
+alt_transform_lookup.altair.vegalite.v2.api.Chart <- function (pyr_object, `as_` = alt$Undefined, `from_` = alt$Undefined, `lookup` = alt$Undefined, `default` = alt$Undefined, ...) {
+out <- pyr_object$`transform_lookup`(`as_` = r_to_py(`as_`), `from_` = r_to_py(`from_`), `lookup` = r_to_py(`lookup`), `default` = r_to_py(`default`), ...)
+out
 }
 #' @export
-alt_transform_timeunit.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_timeunit`(...)
-  out
+alt_transform_timeunit.altair.vegalite.v2.api.Chart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+out <- pyr_object$`transform_timeunit`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Color <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_transform_window.altair.vegalite.v2.api.Chart <- function (pyr_object, ...) {
+out <- pyr_object$`transform_window`(...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Color <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Color <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Color <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Color <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.ColorValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Color <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.ColorValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.ColorValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.ColorValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.ColorValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Column <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.ColorValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Column <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Column <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Column <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Column <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.CompositeUnitSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Column <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.CompositeUnitSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.CompositeUnitSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.CompositeUnitSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.CompositeUnitSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.CompositeUnitSpecAlias <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.CompositeUnitSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.CompositeUnitSpecAlias <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.CompositeUnitSpecAlias <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.CompositeUnitSpecAlias <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.CompositeUnitSpecAlias <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.CompositeUnitSpecAlias <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalMarkPropFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalMarkPropFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalMarkPropFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalMarkPropFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalMarkPropFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalPredicateFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalMarkPropFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalPredicateFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalPredicateFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalPredicateFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalPredicateFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalPredicateMarkPropFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalPredicateFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalPredicateMarkPropFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalPredicateMarkPropFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalPredicateMarkPropFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalPredicateMarkPropFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalPredicateTextFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalPredicateMarkPropFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalPredicateTextFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalPredicateTextFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalPredicateTextFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalPredicateTextFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalPredicateValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalPredicateTextFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalPredicateValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalPredicateValueDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalPredicateValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalPredicateValueDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalSelectionFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalPredicateValueDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalSelectionFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalSelectionFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalSelectionFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalSelectionFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalSelectionMarkPropFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalSelectionFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalSelectionMarkPropFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalSelectionMarkPropFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalSelectionMarkPropFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalSelectionMarkPropFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalSelectionTextFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalSelectionMarkPropFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalSelectionTextFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalSelectionTextFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalSelectionTextFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalSelectionTextFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalSelectionValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalSelectionTextFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalSelectionValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalSelectionValueDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalSelectionValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalSelectionValueDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalTextFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalSelectionValueDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalTextFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalTextFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalTextFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalTextFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ConditionalValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalTextFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ConditionalValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ConditionalValueDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ConditionalValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ConditionalValueDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Config <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ConditionalValueDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Config <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Config <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Config <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Config <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.CsvDataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Config <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.CsvDataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.CsvDataFormat <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.CsvDataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.CsvDataFormat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Data <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.CsvDataFormat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Data <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Data <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Data <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Data <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.DataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Data <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.DataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.DataFormat <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.DataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.DataFormat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Datasets <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.DataFormat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Datasets <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Datasets <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Datasets <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Datasets <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.DateTime <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Datasets <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.DateTime <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.DateTime <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.DateTime <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.DateTime <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Day <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.DateTime <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Day <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Day <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Day <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Day <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Detail <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Day <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Detail <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Detail <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Detail <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Detail <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.DictInlineDataset <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Detail <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.DictInlineDataset <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.DictInlineDataset <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.DictInlineDataset <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.DictInlineDataset <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Encoding <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.DictInlineDataset <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Encoding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Encoding <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Encoding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Encoding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.EncodingWithFacet <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Encoding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.EncodingWithFacet <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_encode.altair.vegalite.v2.api.EncodingMixin <- function (pyr_object, ...) {
+out <- pyr_object$`encode`(...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.EncodingWithFacet <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.EncodingWithFacet <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.core.EncodingWithFacet <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.EncodingWithFacet <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
 alt_configure.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure`(...)
-  out
+out <- pyr_object$`configure`(...)
+out
 }
 #' @export
 alt_configure_area.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_area`(...)
-  out
+out <- pyr_object$`configure_area`(...)
+out
 }
 #' @export
 alt_configure_axis.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axis`(...)
-  out
+out <- pyr_object$`configure_axis`(...)
+out
 }
 #' @export
 alt_configure_axisBand.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBand`(...)
-  out
+out <- pyr_object$`configure_axisBand`(...)
+out
 }
 #' @export
 alt_configure_axisBottom.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBottom`(...)
-  out
+out <- pyr_object$`configure_axisBottom`(...)
+out
 }
 #' @export
 alt_configure_axisLeft.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisLeft`(...)
-  out
+out <- pyr_object$`configure_axisLeft`(...)
+out
 }
 #' @export
 alt_configure_axisRight.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisRight`(...)
-  out
+out <- pyr_object$`configure_axisRight`(...)
+out
 }
 #' @export
 alt_configure_axisTop.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisTop`(...)
-  out
+out <- pyr_object$`configure_axisTop`(...)
+out
 }
 #' @export
 alt_configure_axisX.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisX`(...)
-  out
+out <- pyr_object$`configure_axisX`(...)
+out
 }
 #' @export
 alt_configure_axisY.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisY`(...)
-  out
+out <- pyr_object$`configure_axisY`(...)
+out
 }
 #' @export
 alt_configure_bar.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_bar`(...)
-  out
+out <- pyr_object$`configure_bar`(...)
+out
 }
 #' @export
 alt_configure_circle.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_circle`(...)
-  out
-}
-#' @export
-alt_configure_datasets.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_datasets`(...)
-  out
+out <- pyr_object$`configure_circle`(...)
+out
 }
 #' @export
 alt_configure_geoshape.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_geoshape`(...)
-  out
+out <- pyr_object$`configure_geoshape`(...)
+out
 }
 #' @export
 alt_configure_legend.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_legend`(...)
-  out
+out <- pyr_object$`configure_legend`(...)
+out
 }
 #' @export
 alt_configure_line.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_line`(...)
-  out
+out <- pyr_object$`configure_line`(...)
+out
 }
 #' @export
 alt_configure_mark.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_mark`(...)
-  out
-}
-#' @export
-alt_configure_padding.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_padding`(...)
-  out
+out <- pyr_object$`configure_mark`(...)
+out
 }
 #' @export
 alt_configure_point.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_point`(...)
-  out
+out <- pyr_object$`configure_point`(...)
+out
 }
 #' @export
 alt_configure_projection.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_projection`(...)
-  out
+out <- pyr_object$`configure_projection`(...)
+out
 }
 #' @export
 alt_configure_range.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_range`(...)
-  out
+out <- pyr_object$`configure_range`(...)
+out
 }
 #' @export
 alt_configure_rect.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rect`(...)
-  out
+out <- pyr_object$`configure_rect`(...)
+out
 }
 #' @export
 alt_configure_rule.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rule`(...)
-  out
+out <- pyr_object$`configure_rule`(...)
+out
 }
 #' @export
 alt_configure_scale.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_scale`(...)
-  out
+out <- pyr_object$`configure_scale`(...)
+out
 }
 #' @export
 alt_configure_selection.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_selection`(...)
-  out
+out <- pyr_object$`configure_selection`(...)
+out
 }
 #' @export
 alt_configure_square.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_square`(...)
-  out
-}
-#' @export
-alt_configure_stack.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_stack`(...)
-  out
-}
-#' @export
-alt_configure_style.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_style`(...)
-  out
+out <- pyr_object$`configure_square`(...)
+out
 }
 #' @export
 alt_configure_text.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_text`(...)
-  out
+out <- pyr_object$`configure_text`(...)
+out
 }
 #' @export
 alt_configure_tick.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_tick`(...)
-  out
+out <- pyr_object$`configure_tick`(...)
+out
 }
 #' @export
 alt_configure_title.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_title`(...)
-  out
+out <- pyr_object$`configure_title`(...)
+out
+}
+#' @export
+alt_configure_trail.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
+out <- pyr_object$`configure_trail`(...)
+out
 }
 #' @export
 alt_configure_view.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_view`(...)
-  out
+out <- pyr_object$`configure_view`(...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_interactive.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`interactive`(...)
-  out
+alt_interactive.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `name` = character(0), `bind_x` = TRUE, `bind_y` = TRUE) {
+out <- pyr_object$`interactive`(`name` = r_to_py(`name`), `bind_x` = r_to_py(`bind_x`), `bind_y` = r_to_py(`bind_y`))
+out
+}
+#' @export
+alt_project.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `type` = mercator, `center` = alt$Undefined, `clipAngle` = alt$Undefined, `clipExtent` = alt$Undefined, `coefficient` = alt$Undefined, `distance` = alt$Undefined, `fraction` = alt$Undefined, `lobes` = alt$Undefined, `parallel` = alt$Undefined, `precision` = alt$Undefined, `radius` = alt$Undefined, `ratio` = alt$Undefined, `rotate` = alt$Undefined, `spacing` = alt$Undefined, `tilt` = alt$Undefined, ...) {
+out <- pyr_object$`project`(`type` = r_to_py(`type`), `center` = r_to_py(`center`), `clipAngle` = r_to_py(`clipAngle`), `clipExtent` = r_to_py(`clipExtent`), `coefficient` = r_to_py(`coefficient`), `distance` = r_to_py(`distance`), `fraction` = r_to_py(`fraction`), `lobes` = r_to_py(`lobes`), `parallel` = r_to_py(`parallel`), `precision` = r_to_py(`precision`), `radius` = r_to_py(`radius`), `ratio` = r_to_py(`ratio`), `rotate` = r_to_py(`rotate`), `spacing` = r_to_py(`spacing`), `tilt` = r_to_py(`tilt`), ...)
+out
 }
 #' @export
 alt_properties.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`properties`(...)
-  out
+out <- pyr_object$`properties`(...)
+out
 }
 #' @export
-alt_repeat.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`repeat`(...)
-  out
+alt_repeat.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `row` = alt$Undefined, `column` = alt$Undefined, ...) {
+out <- pyr_object$`repeat`(`row` = r_to_py(`row`), `column` = r_to_py(`column`), ...)
+out
 }
 #' @export
 alt_resolve_axis.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_axis`(...)
-  out
+out <- pyr_object$`resolve_axis`(...)
+out
 }
 #' @export
 alt_resolve_legend.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_legend`(...)
-  out
+out <- pyr_object$`resolve_legend`(...)
+out
 }
 #' @export
 alt_resolve_scale.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_scale`(...)
-  out
+out <- pyr_object$`resolve_scale`(...)
+out
 }
 #' @export
-alt_savechart.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`savechart`(...)
-  out
+alt_save.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `fp`, `format` = character(0), `override_data_transformer` = TRUE, ...) {
+out <- pyr_object$`save`(r_to_py(`fp`), `format` = r_to_py(`format`), `override_data_transformer` = r_to_py(`override_data_transformer`), ...)
+out
+}
+#' @export
+alt_savechart.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `fp`, `format` = character(0), ...) {
+out <- pyr_object$`savechart`(r_to_py(`fp`), `format` = r_to_py(`format`), ...)
+out
 }
 #' @export
 alt_to_dict.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+out <- pyr_object$`to_dict`(...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_transform_aggregate.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_aggregate`(...)
-  out
+alt_transform_aggregate.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `aggregate` = alt$Undefined, `groupby` = alt$Undefined, ...) {
+out <- pyr_object$`transform_aggregate`(`aggregate` = r_to_py(`aggregate`), `groupby` = r_to_py(`groupby`), ...)
+out
 }
 #' @export
-alt_transform_bin.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_bin`(...)
-  out
+alt_transform_bin.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `bin` = TRUE, ...) {
+out <- pyr_object$`transform_bin`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `bin` = r_to_py(`bin`), ...)
+out
 }
 #' @export
-alt_transform_calculate.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_calculate`(...)
-  out
+alt_transform_calculate.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `as_` = alt$Undefined, `calculate` = alt$Undefined, ...) {
+out <- pyr_object$`transform_calculate`(`as_` = r_to_py(`as_`), `calculate` = r_to_py(`calculate`), ...)
+out
 }
 #' @export
-alt_transform_filter.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_filter`(...)
-  out
+alt_transform_filter.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `filter`, ...) {
+out <- pyr_object$`transform_filter`(r_to_py(`filter`), ...)
+out
 }
 #' @export
-alt_transform_lookup.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_lookup`(...)
-  out
+alt_transform_lookup.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `as_` = alt$Undefined, `from_` = alt$Undefined, `lookup` = alt$Undefined, `default` = alt$Undefined, ...) {
+out <- pyr_object$`transform_lookup`(`as_` = r_to_py(`as_`), `from_` = r_to_py(`from_`), `lookup` = r_to_py(`lookup`), `default` = r_to_py(`default`), ...)
+out
 }
 #' @export
-alt_transform_timeunit.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_timeunit`(...)
-  out
+alt_transform_timeunit.altair.vegalite.v2.api.FacetChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+out <- pyr_object$`transform_timeunit`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FacetFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_transform_window.altair.vegalite.v2.api.FacetChart <- function (pyr_object, ...) {
+out <- pyr_object$`transform_window`(...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FacetFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FacetFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FacetFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FacetFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FacetMapping <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FacetFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FacetMapping <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.api.FacetMapping <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FacetMapping <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.api.FacetMapping <- function (pyr_object, ...) {
+out <- pyr_object$`to_dict`(...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FacetSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.FacetMapping <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FacetSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FacetSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FacetSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FacetSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FacetedCompositeUnitSpecAlias <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FacetSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FacetedCompositeUnitSpecAlias <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FacetedCompositeUnitSpecAlias <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FacetedCompositeUnitSpecAlias <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FacetedCompositeUnitSpecAlias <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FacetedCompositeUnitSpecAlias <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.FieldChannelMixin <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FieldDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FieldDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FieldDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FieldDefWithCondition <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FieldEqualPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FieldDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FieldEqualPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FieldDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FieldEqualPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FieldEqualPredicate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FieldOneOfPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FieldEqualPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FieldOneOfPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FieldEqualPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FieldOneOfPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FieldOneOfPredicate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FieldRangePredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FieldOneOfPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FieldRangePredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FieldOneOfPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FieldRangePredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FieldRangePredicate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Fill <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FieldRangePredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Fill <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FieldRangePredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Fill <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Fill <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.FillValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Fill <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.FillValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Fill <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.FillValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.FillValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FilterTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.FillValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FilterTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.FillValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FilterTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FilterTransform <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FontStyle <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FilterTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FontStyle <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FilterTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FontStyle <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FontStyle <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FontWeight <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FontStyle <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FontWeight <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FontStyle <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FontWeight <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FontWeight <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FontWeightNumber <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FontWeight <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FontWeightNumber <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FontWeight <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FontWeightNumber <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FontWeightNumber <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.FontWeightString <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FontWeightNumber <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.FontWeightString <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FontWeightNumber <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.FontWeightString <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.FontWeightString <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.GeoType <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.FontWeightString <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.GeoType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.FontWeightString <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.GeoType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.GeoType <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.core.GeoType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.GeoType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
 alt_configure.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure`(...)
-  out
+out <- pyr_object$`configure`(...)
+out
 }
 #' @export
 alt_configure_area.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_area`(...)
-  out
+out <- pyr_object$`configure_area`(...)
+out
 }
 #' @export
 alt_configure_axis.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axis`(...)
-  out
+out <- pyr_object$`configure_axis`(...)
+out
 }
 #' @export
 alt_configure_axisBand.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBand`(...)
-  out
+out <- pyr_object$`configure_axisBand`(...)
+out
 }
 #' @export
 alt_configure_axisBottom.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBottom`(...)
-  out
+out <- pyr_object$`configure_axisBottom`(...)
+out
 }
 #' @export
 alt_configure_axisLeft.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisLeft`(...)
-  out
+out <- pyr_object$`configure_axisLeft`(...)
+out
 }
 #' @export
 alt_configure_axisRight.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisRight`(...)
-  out
+out <- pyr_object$`configure_axisRight`(...)
+out
 }
 #' @export
 alt_configure_axisTop.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisTop`(...)
-  out
+out <- pyr_object$`configure_axisTop`(...)
+out
 }
 #' @export
 alt_configure_axisX.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisX`(...)
-  out
+out <- pyr_object$`configure_axisX`(...)
+out
 }
 #' @export
 alt_configure_axisY.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisY`(...)
-  out
+out <- pyr_object$`configure_axisY`(...)
+out
 }
 #' @export
 alt_configure_bar.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_bar`(...)
-  out
+out <- pyr_object$`configure_bar`(...)
+out
 }
 #' @export
 alt_configure_circle.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_circle`(...)
-  out
-}
-#' @export
-alt_configure_datasets.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_datasets`(...)
-  out
+out <- pyr_object$`configure_circle`(...)
+out
 }
 #' @export
 alt_configure_geoshape.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_geoshape`(...)
-  out
+out <- pyr_object$`configure_geoshape`(...)
+out
 }
 #' @export
 alt_configure_legend.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_legend`(...)
-  out
+out <- pyr_object$`configure_legend`(...)
+out
 }
 #' @export
 alt_configure_line.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_line`(...)
-  out
+out <- pyr_object$`configure_line`(...)
+out
 }
 #' @export
 alt_configure_mark.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_mark`(...)
-  out
-}
-#' @export
-alt_configure_padding.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_padding`(...)
-  out
+out <- pyr_object$`configure_mark`(...)
+out
 }
 #' @export
 alt_configure_point.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_point`(...)
-  out
+out <- pyr_object$`configure_point`(...)
+out
 }
 #' @export
 alt_configure_projection.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_projection`(...)
-  out
+out <- pyr_object$`configure_projection`(...)
+out
 }
 #' @export
 alt_configure_range.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_range`(...)
-  out
+out <- pyr_object$`configure_range`(...)
+out
 }
 #' @export
 alt_configure_rect.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rect`(...)
-  out
+out <- pyr_object$`configure_rect`(...)
+out
 }
 #' @export
 alt_configure_rule.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rule`(...)
-  out
+out <- pyr_object$`configure_rule`(...)
+out
 }
 #' @export
 alt_configure_scale.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_scale`(...)
-  out
+out <- pyr_object$`configure_scale`(...)
+out
 }
 #' @export
 alt_configure_selection.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_selection`(...)
-  out
+out <- pyr_object$`configure_selection`(...)
+out
 }
 #' @export
 alt_configure_square.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_square`(...)
-  out
-}
-#' @export
-alt_configure_stack.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_stack`(...)
-  out
-}
-#' @export
-alt_configure_style.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_style`(...)
-  out
+out <- pyr_object$`configure_square`(...)
+out
 }
 #' @export
 alt_configure_text.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_text`(...)
-  out
+out <- pyr_object$`configure_text`(...)
+out
 }
 #' @export
 alt_configure_tick.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_tick`(...)
-  out
+out <- pyr_object$`configure_tick`(...)
+out
 }
 #' @export
 alt_configure_title.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_title`(...)
-  out
+out <- pyr_object$`configure_title`(...)
+out
+}
+#' @export
+alt_configure_trail.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
+out <- pyr_object$`configure_trail`(...)
+out
 }
 #' @export
 alt_configure_view.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_view`(...)
-  out
+out <- pyr_object$`configure_view`(...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_project.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `type` = mercator, `center` = alt$Undefined, `clipAngle` = alt$Undefined, `clipExtent` = alt$Undefined, `coefficient` = alt$Undefined, `distance` = alt$Undefined, `fraction` = alt$Undefined, `lobes` = alt$Undefined, `parallel` = alt$Undefined, `precision` = alt$Undefined, `radius` = alt$Undefined, `ratio` = alt$Undefined, `rotate` = alt$Undefined, `spacing` = alt$Undefined, `tilt` = alt$Undefined, ...) {
+out <- pyr_object$`project`(`type` = r_to_py(`type`), `center` = r_to_py(`center`), `clipAngle` = r_to_py(`clipAngle`), `clipExtent` = r_to_py(`clipExtent`), `coefficient` = r_to_py(`coefficient`), `distance` = r_to_py(`distance`), `fraction` = r_to_py(`fraction`), `lobes` = r_to_py(`lobes`), `parallel` = r_to_py(`parallel`), `precision` = r_to_py(`precision`), `radius` = r_to_py(`radius`), `ratio` = r_to_py(`ratio`), `rotate` = r_to_py(`rotate`), `spacing` = r_to_py(`spacing`), `tilt` = r_to_py(`tilt`), ...)
+out
 }
 #' @export
 alt_properties.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`properties`(...)
-  out
+out <- pyr_object$`properties`(...)
+out
 }
 #' @export
-alt_repeat.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`repeat`(...)
-  out
+alt_repeat.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `row` = alt$Undefined, `column` = alt$Undefined, ...) {
+out <- pyr_object$`repeat`(`row` = r_to_py(`row`), `column` = r_to_py(`column`), ...)
+out
 }
 #' @export
 alt_resolve_axis.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_axis`(...)
-  out
+out <- pyr_object$`resolve_axis`(...)
+out
 }
 #' @export
 alt_resolve_legend.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_legend`(...)
-  out
+out <- pyr_object$`resolve_legend`(...)
+out
 }
 #' @export
 alt_resolve_scale.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_scale`(...)
-  out
+out <- pyr_object$`resolve_scale`(...)
+out
 }
 #' @export
-alt_savechart.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`savechart`(...)
-  out
+alt_save.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `fp`, `format` = character(0), `override_data_transformer` = TRUE, ...) {
+out <- pyr_object$`save`(r_to_py(`fp`), `format` = r_to_py(`format`), `override_data_transformer` = r_to_py(`override_data_transformer`), ...)
+out
+}
+#' @export
+alt_savechart.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `fp`, `format` = character(0), ...) {
+out <- pyr_object$`savechart`(r_to_py(`fp`), `format` = r_to_py(`format`), ...)
+out
 }
 #' @export
 alt_to_dict.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+out <- pyr_object$`to_dict`(...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_transform_aggregate.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_aggregate`(...)
-  out
+alt_transform_aggregate.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `aggregate` = alt$Undefined, `groupby` = alt$Undefined, ...) {
+out <- pyr_object$`transform_aggregate`(`aggregate` = r_to_py(`aggregate`), `groupby` = r_to_py(`groupby`), ...)
+out
 }
 #' @export
-alt_transform_bin.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_bin`(...)
-  out
+alt_transform_bin.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `bin` = TRUE, ...) {
+out <- pyr_object$`transform_bin`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `bin` = r_to_py(`bin`), ...)
+out
 }
 #' @export
-alt_transform_calculate.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_calculate`(...)
-  out
+alt_transform_calculate.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `as_` = alt$Undefined, `calculate` = alt$Undefined, ...) {
+out <- pyr_object$`transform_calculate`(`as_` = r_to_py(`as_`), `calculate` = r_to_py(`calculate`), ...)
+out
 }
 #' @export
-alt_transform_filter.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_filter`(...)
-  out
+alt_transform_filter.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `filter`, ...) {
+out <- pyr_object$`transform_filter`(r_to_py(`filter`), ...)
+out
 }
 #' @export
-alt_transform_lookup.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_lookup`(...)
-  out
+alt_transform_lookup.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `as_` = alt$Undefined, `from_` = alt$Undefined, `lookup` = alt$Undefined, `default` = alt$Undefined, ...) {
+out <- pyr_object$`transform_lookup`(`as_` = r_to_py(`as_`), `from_` = r_to_py(`from_`), `lookup` = r_to_py(`lookup`), `default` = r_to_py(`default`), ...)
+out
 }
 #' @export
-alt_transform_timeunit.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_timeunit`(...)
-  out
+alt_transform_timeunit.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+out <- pyr_object$`transform_timeunit`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.HConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_transform_window.altair.vegalite.v2.api.HConcatChart <- function (pyr_object, ...) {
+out <- pyr_object$`transform_window`(...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.HConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.HConcatSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.HConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.HConcatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Header <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.HConcatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Header <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Header <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Header <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Header <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.HorizontalAlign <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Header <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.HorizontalAlign <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.HorizontalAlign <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.HorizontalAlign <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.HorizontalAlign <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Href <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.HorizontalAlign <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Href <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Href <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Href <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Href <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.HrefValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Href <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.HrefValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.HrefValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.HrefValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.HrefValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.InlineData <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.HrefValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.InlineData <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.InlineData <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.InlineData <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.InlineData <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.InlineDataset <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.InlineData <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.InlineDataset <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.InlineDataset <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.InlineDataset <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.InlineDataset <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Interpolate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.InlineDataset <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Interpolate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Interpolate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Interpolate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Interpolate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.IntervalSelection <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Interpolate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.IntervalSelection <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.IntervalSelection <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.IntervalSelection <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.IntervalSelection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.IntervalSelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.IntervalSelection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.IntervalSelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.IntervalSelectionConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.IntervalSelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.IntervalSelectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.JsonDataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.IntervalSelectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.JsonDataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.JsonDataFormat <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.JsonDataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.JsonDataFormat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Key <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.JsonDataFormat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Key <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Key <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Key <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Key <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Latitude <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Key <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Latitude <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Latitude <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Latitude <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Latitude <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Latitude2 <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Latitude <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Latitude2 <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Latitude2 <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Latitude2 <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Latitude2 <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.channels.Latitude2 <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_add_layers.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
+out <- pyr_object$`add_layers`(...)
+out
 }
 #' @export
 alt_configure.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure`(...)
-  out
+out <- pyr_object$`configure`(...)
+out
 }
 #' @export
 alt_configure_area.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_area`(...)
-  out
+out <- pyr_object$`configure_area`(...)
+out
 }
 #' @export
 alt_configure_axis.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axis`(...)
-  out
+out <- pyr_object$`configure_axis`(...)
+out
 }
 #' @export
 alt_configure_axisBand.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBand`(...)
-  out
+out <- pyr_object$`configure_axisBand`(...)
+out
 }
 #' @export
 alt_configure_axisBottom.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBottom`(...)
-  out
+out <- pyr_object$`configure_axisBottom`(...)
+out
 }
 #' @export
 alt_configure_axisLeft.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisLeft`(...)
-  out
+out <- pyr_object$`configure_axisLeft`(...)
+out
 }
 #' @export
 alt_configure_axisRight.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisRight`(...)
-  out
+out <- pyr_object$`configure_axisRight`(...)
+out
 }
 #' @export
 alt_configure_axisTop.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisTop`(...)
-  out
+out <- pyr_object$`configure_axisTop`(...)
+out
 }
 #' @export
 alt_configure_axisX.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisX`(...)
-  out
+out <- pyr_object$`configure_axisX`(...)
+out
 }
 #' @export
 alt_configure_axisY.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisY`(...)
-  out
+out <- pyr_object$`configure_axisY`(...)
+out
 }
 #' @export
 alt_configure_bar.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_bar`(...)
-  out
+out <- pyr_object$`configure_bar`(...)
+out
 }
 #' @export
 alt_configure_circle.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_circle`(...)
-  out
-}
-#' @export
-alt_configure_datasets.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_datasets`(...)
-  out
+out <- pyr_object$`configure_circle`(...)
+out
 }
 #' @export
 alt_configure_geoshape.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_geoshape`(...)
-  out
+out <- pyr_object$`configure_geoshape`(...)
+out
 }
 #' @export
 alt_configure_legend.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_legend`(...)
-  out
+out <- pyr_object$`configure_legend`(...)
+out
 }
 #' @export
 alt_configure_line.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_line`(...)
-  out
+out <- pyr_object$`configure_line`(...)
+out
 }
 #' @export
 alt_configure_mark.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_mark`(...)
-  out
-}
-#' @export
-alt_configure_padding.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_padding`(...)
-  out
+out <- pyr_object$`configure_mark`(...)
+out
 }
 #' @export
 alt_configure_point.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_point`(...)
-  out
+out <- pyr_object$`configure_point`(...)
+out
 }
 #' @export
 alt_configure_projection.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_projection`(...)
-  out
+out <- pyr_object$`configure_projection`(...)
+out
 }
 #' @export
 alt_configure_range.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_range`(...)
-  out
+out <- pyr_object$`configure_range`(...)
+out
 }
 #' @export
 alt_configure_rect.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rect`(...)
-  out
+out <- pyr_object$`configure_rect`(...)
+out
 }
 #' @export
 alt_configure_rule.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rule`(...)
-  out
+out <- pyr_object$`configure_rule`(...)
+out
 }
 #' @export
 alt_configure_scale.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_scale`(...)
-  out
+out <- pyr_object$`configure_scale`(...)
+out
 }
 #' @export
 alt_configure_selection.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_selection`(...)
-  out
+out <- pyr_object$`configure_selection`(...)
+out
 }
 #' @export
 alt_configure_square.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_square`(...)
-  out
-}
-#' @export
-alt_configure_stack.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_stack`(...)
-  out
-}
-#' @export
-alt_configure_style.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_style`(...)
-  out
+out <- pyr_object$`configure_square`(...)
+out
 }
 #' @export
 alt_configure_text.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_text`(...)
-  out
+out <- pyr_object$`configure_text`(...)
+out
 }
 #' @export
 alt_configure_tick.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_tick`(...)
-  out
+out <- pyr_object$`configure_tick`(...)
+out
 }
 #' @export
 alt_configure_title.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_title`(...)
-  out
+out <- pyr_object$`configure_title`(...)
+out
+}
+#' @export
+alt_configure_trail.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
+out <- pyr_object$`configure_trail`(...)
+out
 }
 #' @export
 alt_configure_view.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_view`(...)
-  out
+out <- pyr_object$`configure_view`(...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_facet.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`facet`(...)
-  out
+alt_encode.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
+out <- pyr_object$`encode`(...)
+out
 }
 #' @export
-alt_interactive.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`interactive`(...)
-  out
+alt_facet.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `row` = alt$Undefined, `column` = alt$Undefined, `data` = alt$Undefined, ...) {
+out <- pyr_object$`facet`(`row` = r_to_py(`row`), `column` = r_to_py(`column`), `data` = r_to_py(`data`), ...)
+out
+}
+#' @export
+alt_interactive.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `name` = character(0), `bind_x` = TRUE, `bind_y` = TRUE) {
+out <- pyr_object$`interactive`(`name` = r_to_py(`name`), `bind_x` = r_to_py(`bind_x`), `bind_y` = r_to_py(`bind_y`))
+out
+}
+#' @export
+alt_project.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `type` = mercator, `center` = alt$Undefined, `clipAngle` = alt$Undefined, `clipExtent` = alt$Undefined, `coefficient` = alt$Undefined, `distance` = alt$Undefined, `fraction` = alt$Undefined, `lobes` = alt$Undefined, `parallel` = alt$Undefined, `precision` = alt$Undefined, `radius` = alt$Undefined, `ratio` = alt$Undefined, `rotate` = alt$Undefined, `spacing` = alt$Undefined, `tilt` = alt$Undefined, ...) {
+out <- pyr_object$`project`(`type` = r_to_py(`type`), `center` = r_to_py(`center`), `clipAngle` = r_to_py(`clipAngle`), `clipExtent` = r_to_py(`clipExtent`), `coefficient` = r_to_py(`coefficient`), `distance` = r_to_py(`distance`), `fraction` = r_to_py(`fraction`), `lobes` = r_to_py(`lobes`), `parallel` = r_to_py(`parallel`), `precision` = r_to_py(`precision`), `radius` = r_to_py(`radius`), `ratio` = r_to_py(`ratio`), `rotate` = r_to_py(`rotate`), `spacing` = r_to_py(`spacing`), `tilt` = r_to_py(`tilt`), ...)
+out
 }
 #' @export
 alt_properties.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`properties`(...)
-  out
+out <- pyr_object$`properties`(...)
+out
 }
 #' @export
-alt_repeat.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`repeat`(...)
-  out
+alt_repeat.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `row` = alt$Undefined, `column` = alt$Undefined, ...) {
+out <- pyr_object$`repeat`(`row` = r_to_py(`row`), `column` = r_to_py(`column`), ...)
+out
 }
 #' @export
 alt_resolve_axis.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_axis`(...)
-  out
+out <- pyr_object$`resolve_axis`(...)
+out
 }
 #' @export
 alt_resolve_legend.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_legend`(...)
-  out
+out <- pyr_object$`resolve_legend`(...)
+out
 }
 #' @export
 alt_resolve_scale.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_scale`(...)
-  out
+out <- pyr_object$`resolve_scale`(...)
+out
 }
 #' @export
-alt_savechart.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`savechart`(...)
-  out
+alt_save.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `fp`, `format` = character(0), `override_data_transformer` = TRUE, ...) {
+out <- pyr_object$`save`(r_to_py(`fp`), `format` = r_to_py(`format`), `override_data_transformer` = r_to_py(`override_data_transformer`), ...)
+out
+}
+#' @export
+alt_savechart.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `fp`, `format` = character(0), ...) {
+out <- pyr_object$`savechart`(r_to_py(`fp`), `format` = r_to_py(`format`), ...)
+out
 }
 #' @export
 alt_to_dict.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+out <- pyr_object$`to_dict`(...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_transform_aggregate.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_aggregate`(...)
-  out
+alt_transform_aggregate.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `aggregate` = alt$Undefined, `groupby` = alt$Undefined, ...) {
+out <- pyr_object$`transform_aggregate`(`aggregate` = r_to_py(`aggregate`), `groupby` = r_to_py(`groupby`), ...)
+out
 }
 #' @export
-alt_transform_bin.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_bin`(...)
-  out
+alt_transform_bin.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `bin` = TRUE, ...) {
+out <- pyr_object$`transform_bin`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `bin` = r_to_py(`bin`), ...)
+out
 }
 #' @export
-alt_transform_calculate.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_calculate`(...)
-  out
+alt_transform_calculate.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `as_` = alt$Undefined, `calculate` = alt$Undefined, ...) {
+out <- pyr_object$`transform_calculate`(`as_` = r_to_py(`as_`), `calculate` = r_to_py(`calculate`), ...)
+out
 }
 #' @export
-alt_transform_filter.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_filter`(...)
-  out
+alt_transform_filter.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `filter`, ...) {
+out <- pyr_object$`transform_filter`(r_to_py(`filter`), ...)
+out
 }
 #' @export
-alt_transform_lookup.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_lookup`(...)
-  out
+alt_transform_lookup.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `as_` = alt$Undefined, `from_` = alt$Undefined, `lookup` = alt$Undefined, `default` = alt$Undefined, ...) {
+out <- pyr_object$`transform_lookup`(`as_` = r_to_py(`as_`), `from_` = r_to_py(`from_`), `lookup` = r_to_py(`lookup`), `default` = r_to_py(`default`), ...)
+out
 }
 #' @export
-alt_transform_timeunit.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_timeunit`(...)
-  out
+alt_transform_timeunit.altair.vegalite.v2.api.LayerChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+out <- pyr_object$`transform_timeunit`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LayerSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_transform_window.altair.vegalite.v2.api.LayerChart <- function (pyr_object, ...) {
+out <- pyr_object$`transform_window`(...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LayerSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LayerSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LayerSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LayerSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Legend <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LayerSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Legend <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Legend <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Legend <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Legend <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LegendConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Legend <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LegendConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LegendConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LegendConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LegendConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LegendOrient <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LegendConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LegendOrient <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LegendOrient <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LegendOrient <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LegendOrient <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LegendResolveMap <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LegendOrient <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LegendResolveMap <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LegendResolveMap <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LegendResolveMap <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LegendResolveMap <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LocalMultiTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LegendResolveMap <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LocalMultiTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LineConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LocalMultiTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LineConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LocalSingleTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LineConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LocalSingleTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LocalMultiTimeUnit <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LocalSingleTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LocalMultiTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LogicalAndPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LocalMultiTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LogicalAndPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LocalSingleTimeUnit <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LogicalAndPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LocalSingleTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LogicalNotPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LocalSingleTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LogicalNotPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LogicalAndPredicate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LogicalNotPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LogicalAndPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LogicalOperandPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LogicalAndPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LogicalOperandPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LogicalNotPredicate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LogicalOperandPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LogicalNotPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LogicalOrPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LogicalNotPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LogicalOrPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LogicalOperandPredicate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LogicalOrPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LogicalOperandPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Longitude <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LogicalOperandPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Longitude <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LogicalOrPredicate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Longitude <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LogicalOrPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Longitude2 <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LogicalOrPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Longitude2 <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Longitude <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Longitude2 <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Longitude <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LookupData <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Longitude <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LookupData <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Longitude2 <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LookupData <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Longitude2 <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.LookupTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Longitude2 <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.LookupTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.api.LookupData <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.LookupTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.api.LookupData <- function (pyr_object, ...) {
+out <- pyr_object$`to_dict`(...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Mark <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.LookupData <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Mark <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.LookupTransform <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Mark <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.LookupTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.MarkConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.LookupTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.MarkConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Mark <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.MarkConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Mark <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.MarkDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Mark <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.MarkDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.MarkConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.MarkDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.MarkConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.MarkPropFieldDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.MarkConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.MarkPropFieldDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.MarkDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.MarkPropFieldDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.MarkDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.MarkPropValueDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.MarkDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.MarkPropValueDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.MarkPropFieldDefWithCondition <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.MarkPropValueDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.MarkPropFieldDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Month <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.MarkPropFieldDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Month <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.MarkPropValueDefWithCondition <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Month <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.MarkPropValueDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.MultiSelection <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.MarkPropValueDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.MultiSelection <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.MarkProperties <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.MultiSelection <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.MarkProperties <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.MultiSelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.MarkProperties <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.MultiSelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Month <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.MultiSelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Month <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.MultiTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Month <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.MultiTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.MultiSelection <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.MultiTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.MultiSelection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.NamedData <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.MultiSelection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.NamedData <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.MultiSelectionConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.NamedData <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.MultiSelectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.NiceTime <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.MultiSelectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.NiceTime <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.MultiTimeUnit <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.NiceTime <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.MultiTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Opacity <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.MultiTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Opacity <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.NamedData <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Opacity <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.NamedData <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.OpacityValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.NamedData <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.OpacityValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.api.NamedSelection <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.OpacityValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_ref.altair.vegalite.v2.api.NamedSelection <- function (pyr_object) {
+out <- pyr_object$`ref`()
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Order <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.api.NamedSelection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Order <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.NamedSelection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Order <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.NiceTime <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.OrderFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.NiceTime <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.OrderFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.NiceTime <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.OrderFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Opacity <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Orient <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Opacity <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Orient <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Opacity <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Orient <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.OpacityValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Padding <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.OpacityValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Padding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.OpacityValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Padding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Order <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.PositionFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Order <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.PositionFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Order <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.PositionFieldDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.OrderFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Predicate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.OrderFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Predicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.OrderFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Predicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Orient <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Projection <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Orient <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Projection <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Orient <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Projection <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Padding <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ProjectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Padding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ProjectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Padding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ProjectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.PositionFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ProjectionType <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.PositionFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ProjectionType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.PositionFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ProjectionType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Predicate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.RangeConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Predicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.RangeConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Predicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.RangeConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Projection <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.RangeConfigValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Projection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.RangeConfigValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Projection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.RangeConfigValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ProjectionConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Repeat <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ProjectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Repeat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ProjectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Repeat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ProjectionType <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.core.ProjectionType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.ProjectionType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.core.RangeConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.core.RangeConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.RangeConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.core.RangeConfigValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.core.RangeConfigValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.RangeConfigValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.core.Repeat <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.core.Repeat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.Repeat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
 alt_configure.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure`(...)
-  out
+out <- pyr_object$`configure`(...)
+out
 }
 #' @export
 alt_configure_area.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_area`(...)
-  out
+out <- pyr_object$`configure_area`(...)
+out
 }
 #' @export
 alt_configure_axis.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axis`(...)
-  out
+out <- pyr_object$`configure_axis`(...)
+out
 }
 #' @export
 alt_configure_axisBand.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBand`(...)
-  out
+out <- pyr_object$`configure_axisBand`(...)
+out
 }
 #' @export
 alt_configure_axisBottom.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBottom`(...)
-  out
+out <- pyr_object$`configure_axisBottom`(...)
+out
 }
 #' @export
 alt_configure_axisLeft.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisLeft`(...)
-  out
+out <- pyr_object$`configure_axisLeft`(...)
+out
 }
 #' @export
 alt_configure_axisRight.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisRight`(...)
-  out
+out <- pyr_object$`configure_axisRight`(...)
+out
 }
 #' @export
 alt_configure_axisTop.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisTop`(...)
-  out
+out <- pyr_object$`configure_axisTop`(...)
+out
 }
 #' @export
 alt_configure_axisX.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisX`(...)
-  out
+out <- pyr_object$`configure_axisX`(...)
+out
 }
 #' @export
 alt_configure_axisY.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisY`(...)
-  out
+out <- pyr_object$`configure_axisY`(...)
+out
 }
 #' @export
 alt_configure_bar.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_bar`(...)
-  out
+out <- pyr_object$`configure_bar`(...)
+out
 }
 #' @export
 alt_configure_circle.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_circle`(...)
-  out
-}
-#' @export
-alt_configure_datasets.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_datasets`(...)
-  out
+out <- pyr_object$`configure_circle`(...)
+out
 }
 #' @export
 alt_configure_geoshape.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_geoshape`(...)
-  out
+out <- pyr_object$`configure_geoshape`(...)
+out
 }
 #' @export
 alt_configure_legend.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_legend`(...)
-  out
+out <- pyr_object$`configure_legend`(...)
+out
 }
 #' @export
 alt_configure_line.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_line`(...)
-  out
+out <- pyr_object$`configure_line`(...)
+out
 }
 #' @export
 alt_configure_mark.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_mark`(...)
-  out
-}
-#' @export
-alt_configure_padding.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_padding`(...)
-  out
+out <- pyr_object$`configure_mark`(...)
+out
 }
 #' @export
 alt_configure_point.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_point`(...)
-  out
+out <- pyr_object$`configure_point`(...)
+out
 }
 #' @export
 alt_configure_projection.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_projection`(...)
-  out
+out <- pyr_object$`configure_projection`(...)
+out
 }
 #' @export
 alt_configure_range.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_range`(...)
-  out
+out <- pyr_object$`configure_range`(...)
+out
 }
 #' @export
 alt_configure_rect.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rect`(...)
-  out
+out <- pyr_object$`configure_rect`(...)
+out
 }
 #' @export
 alt_configure_rule.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rule`(...)
-  out
+out <- pyr_object$`configure_rule`(...)
+out
 }
 #' @export
 alt_configure_scale.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_scale`(...)
-  out
+out <- pyr_object$`configure_scale`(...)
+out
 }
 #' @export
 alt_configure_selection.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_selection`(...)
-  out
+out <- pyr_object$`configure_selection`(...)
+out
 }
 #' @export
 alt_configure_square.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_square`(...)
-  out
-}
-#' @export
-alt_configure_stack.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_stack`(...)
-  out
-}
-#' @export
-alt_configure_style.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_style`(...)
-  out
+out <- pyr_object$`configure_square`(...)
+out
 }
 #' @export
 alt_configure_text.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_text`(...)
-  out
+out <- pyr_object$`configure_text`(...)
+out
 }
 #' @export
 alt_configure_tick.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_tick`(...)
-  out
+out <- pyr_object$`configure_tick`(...)
+out
 }
 #' @export
 alt_configure_title.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_title`(...)
-  out
+out <- pyr_object$`configure_title`(...)
+out
+}
+#' @export
+alt_configure_trail.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
+out <- pyr_object$`configure_trail`(...)
+out
 }
 #' @export
 alt_configure_view.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_view`(...)
-  out
+out <- pyr_object$`configure_view`(...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_interactive.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`interactive`(...)
-  out
+alt_interactive.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `name` = character(0), `bind_x` = TRUE, `bind_y` = TRUE) {
+out <- pyr_object$`interactive`(`name` = r_to_py(`name`), `bind_x` = r_to_py(`bind_x`), `bind_y` = r_to_py(`bind_y`))
+out
+}
+#' @export
+alt_project.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `type` = mercator, `center` = alt$Undefined, `clipAngle` = alt$Undefined, `clipExtent` = alt$Undefined, `coefficient` = alt$Undefined, `distance` = alt$Undefined, `fraction` = alt$Undefined, `lobes` = alt$Undefined, `parallel` = alt$Undefined, `precision` = alt$Undefined, `radius` = alt$Undefined, `ratio` = alt$Undefined, `rotate` = alt$Undefined, `spacing` = alt$Undefined, `tilt` = alt$Undefined, ...) {
+out <- pyr_object$`project`(`type` = r_to_py(`type`), `center` = r_to_py(`center`), `clipAngle` = r_to_py(`clipAngle`), `clipExtent` = r_to_py(`clipExtent`), `coefficient` = r_to_py(`coefficient`), `distance` = r_to_py(`distance`), `fraction` = r_to_py(`fraction`), `lobes` = r_to_py(`lobes`), `parallel` = r_to_py(`parallel`), `precision` = r_to_py(`precision`), `radius` = r_to_py(`radius`), `ratio` = r_to_py(`ratio`), `rotate` = r_to_py(`rotate`), `spacing` = r_to_py(`spacing`), `tilt` = r_to_py(`tilt`), ...)
+out
 }
 #' @export
 alt_properties.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`properties`(...)
-  out
+out <- pyr_object$`properties`(...)
+out
 }
 #' @export
-alt_repeat.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`repeat`(...)
-  out
+alt_repeat.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `row` = alt$Undefined, `column` = alt$Undefined, ...) {
+out <- pyr_object$`repeat`(`row` = r_to_py(`row`), `column` = r_to_py(`column`), ...)
+out
 }
 #' @export
 alt_resolve_axis.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_axis`(...)
-  out
+out <- pyr_object$`resolve_axis`(...)
+out
 }
 #' @export
 alt_resolve_legend.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_legend`(...)
-  out
+out <- pyr_object$`resolve_legend`(...)
+out
 }
 #' @export
 alt_resolve_scale.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_scale`(...)
-  out
+out <- pyr_object$`resolve_scale`(...)
+out
 }
 #' @export
-alt_savechart.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`savechart`(...)
-  out
+alt_save.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `fp`, `format` = character(0), `override_data_transformer` = TRUE, ...) {
+out <- pyr_object$`save`(r_to_py(`fp`), `format` = r_to_py(`format`), `override_data_transformer` = r_to_py(`override_data_transformer`), ...)
+out
+}
+#' @export
+alt_savechart.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `fp`, `format` = character(0), ...) {
+out <- pyr_object$`savechart`(r_to_py(`fp`), `format` = r_to_py(`format`), ...)
+out
 }
 #' @export
 alt_to_dict.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+out <- pyr_object$`to_dict`(...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_transform_aggregate.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_aggregate`(...)
-  out
+alt_transform_aggregate.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `aggregate` = alt$Undefined, `groupby` = alt$Undefined, ...) {
+out <- pyr_object$`transform_aggregate`(`aggregate` = r_to_py(`aggregate`), `groupby` = r_to_py(`groupby`), ...)
+out
 }
 #' @export
-alt_transform_bin.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_bin`(...)
-  out
+alt_transform_bin.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `bin` = TRUE, ...) {
+out <- pyr_object$`transform_bin`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `bin` = r_to_py(`bin`), ...)
+out
 }
 #' @export
-alt_transform_calculate.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_calculate`(...)
-  out
+alt_transform_calculate.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `as_` = alt$Undefined, `calculate` = alt$Undefined, ...) {
+out <- pyr_object$`transform_calculate`(`as_` = r_to_py(`as_`), `calculate` = r_to_py(`calculate`), ...)
+out
 }
 #' @export
-alt_transform_filter.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_filter`(...)
-  out
+alt_transform_filter.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `filter`, ...) {
+out <- pyr_object$`transform_filter`(r_to_py(`filter`), ...)
+out
 }
 #' @export
-alt_transform_lookup.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_lookup`(...)
-  out
+alt_transform_lookup.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `as_` = alt$Undefined, `from_` = alt$Undefined, `lookup` = alt$Undefined, `default` = alt$Undefined, ...) {
+out <- pyr_object$`transform_lookup`(`as_` = r_to_py(`as_`), `from_` = r_to_py(`from_`), `lookup` = r_to_py(`lookup`), `default` = r_to_py(`default`), ...)
+out
 }
 #' @export
-alt_transform_timeunit.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_timeunit`(...)
-  out
+alt_transform_timeunit.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+out <- pyr_object$`transform_timeunit`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.RepeatRef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_transform_window.altair.vegalite.v2.api.RepeatChart <- function (pyr_object, ...) {
+out <- pyr_object$`transform_window`(...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.RepeatRef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.RepeatRef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.RepeatRef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.RepeatRef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.RepeatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.RepeatRef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.RepeatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.RepeatSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.RepeatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.RepeatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Resolve <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.RepeatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Resolve <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Resolve <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Resolve <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Resolve <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ResolveMode <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Resolve <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ResolveMode <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ResolveMode <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ResolveMode <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ResolveMode <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Root <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ResolveMode <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Root <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Root <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Root <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Root <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Row <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Root <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Row <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Row <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Row <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Row <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Scale <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Row <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Scale <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Scale <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Scale <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Scale <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ScaleConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Scale <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ScaleConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ScaleConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ScaleConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ScaleConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ScaleInterpolate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ScaleConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ScaleInterpolate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ScaleInterpolate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ScaleInterpolate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ScaleInterpolate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ScaleInterpolateParams <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ScaleInterpolate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ScaleInterpolateParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ScaleInterpolateParams <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ScaleInterpolateParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ScaleInterpolateParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ScaleResolveMap <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ScaleInterpolateParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ScaleResolveMap <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ScaleResolveMap <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ScaleResolveMap <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ScaleResolveMap <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ScaleType <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ScaleResolveMap <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ScaleType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ScaleType <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ScaleType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ScaleType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.utils.schemapi.SchemaBase <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ScaleType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.utils.schemapi.SchemaBase <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.utils.schemapi.SchemaBase <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.utils.schemapi.SchemaBase <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.utils.schemapi.SchemaBase <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SchemeParams <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.utils.schemapi.SchemaBase <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SchemeParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SchemeParams <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SchemeParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SchemeParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SelectionAnd <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SchemeParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SelectionAnd <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SelectionAnd <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SelectionAnd <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SelectionAnd <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SelectionAnd <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SelectionConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SelectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SelectionDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SelectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SelectionDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SelectionDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SelectionDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SelectionDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SelectionDomain <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SelectionDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SelectionDomain <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SelectionDomain <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SelectionDomain <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SelectionDomain <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.api.SelectionMapping <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SelectionDomain <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_ref.altair.vegalite.v2.api.SelectionMapping <- function (pyr_object, ...) {
-  out <- pyr_object$`ref`(...)
-  out
+alt_copy.altair.vegalite.v2.api.SelectionMapping <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.api.SelectionMapping <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.api.SelectionMapping <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.api.SelectionMapping <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.SelectionMapping <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SelectionNot <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SelectionNot <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SelectionNot <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SelectionNot <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SelectionNot <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SelectionNot <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SelectionOperand <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SelectionOperand <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SelectionOperand <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SelectionOperand <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SelectionOperand <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SelectionOperand <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SelectionOr <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SelectionOr <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SelectionOr <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SelectionOr <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SelectionOr <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SelectionOr <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SelectionPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SelectionPredicate <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SelectionPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SelectionPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SelectionPredicate <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SelectionPredicate <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SelectionResolution <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SelectionResolution <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SelectionResolution <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SelectionResolution <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SelectionResolution <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SelectionResolution <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Shape <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Shape <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Shape <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Shape <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Shape <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Shape <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.ShapeValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.ShapeValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.ShapeValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.ShapeValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.ShapeValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.ShapeValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SingleDefChannel <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SingleDefChannel <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SingleDefChannel <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SingleDefChannel <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SingleDefChannel <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SingleDefChannel <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SingleSelection <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SingleSelection <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SingleSelection <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SingleSelection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SingleSelection <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SingleSelection <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SingleSelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SingleSelectionConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SingleSelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SingleSelectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SingleSelectionConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SingleSelectionConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SingleTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SingleTimeUnit <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SingleTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SingleTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SingleTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SingleTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Size <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Size <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Size <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Size <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Size <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Size <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.SizeValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.SizeValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.SizeValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.SizeValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.SizeValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.SizeValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SortField <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SortField <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SortField <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SortField <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SortField <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SortField <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.SortOrder <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.SortOrder <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.SortOrder <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.SortOrder <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.SortOrder <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.SortOrder <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Spec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Spec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Spec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Spec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Spec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Spec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.StackOffset <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.StackOffset <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.StackOffset <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.StackOffset <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.StackOffset <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.StackOffset <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Stroke <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Stroke <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Stroke <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Stroke <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Stroke <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Stroke <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.StrokeValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.StrokeValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.StrokeValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.StrokeValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.StrokeValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.StrokeValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.StyleConfigIndex <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.StyleConfigIndex <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.StyleConfigIndex <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.StyleConfigIndex <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.StyleConfigIndex <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.StyleConfigIndex <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Text <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Text <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Text <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Text <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Text <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Text <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TextConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TextConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TextConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TextConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TextConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TextConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TextFieldDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TextFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TextFieldDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TextFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TextFieldDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TextFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.TextValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TextFieldDefWithCondition <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.TextValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TextFieldDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.TextValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TextFieldDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TextValueDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.TextValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TextValueDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.TextValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TextValueDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.TextValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TickConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TextValueDefWithCondition <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TickConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TextValueDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TickConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TextValueDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TickConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TickConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TickConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TimeUnitTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TimeUnit <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TimeUnitTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TimeUnitTransform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TitleOrient <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TimeUnitTransform <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TitleOrient <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TimeUnitTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TitleOrient <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TimeUnitTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TitleParams <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TitleOrient <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TitleParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TitleOrient <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TitleParams <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TitleOrient <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Tooltip <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TitleParams <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Tooltip <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TitleParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Tooltip <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TitleParams <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.TooltipValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.Tooltip <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.TooltipValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.Tooltip <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.TooltipValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.Tooltip <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TopLevelFacetSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.TooltipValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TopLevelFacetSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.TooltipValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TopLevelFacetSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.TooltipValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TopLevelFacetedUnitSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TopLevelFacetSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TopLevelFacetedUnitSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TopLevelFacetSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TopLevelFacetedUnitSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TopLevelFacetSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TopLevelHConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TopLevelFacetedUnitSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TopLevelHConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TopLevelFacetedUnitSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TopLevelHConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TopLevelFacetedUnitSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TopLevelLayerSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TopLevelHConcatSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TopLevelLayerSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TopLevelHConcatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TopLevelLayerSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TopLevelHConcatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.core.TopLevelLayerSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.core.TopLevelLayerSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.TopLevelLayerSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
 alt_configure.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure`(...)
-  out
+out <- pyr_object$`configure`(...)
+out
 }
 #' @export
 alt_configure_area.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_area`(...)
-  out
+out <- pyr_object$`configure_area`(...)
+out
 }
 #' @export
 alt_configure_axis.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axis`(...)
-  out
+out <- pyr_object$`configure_axis`(...)
+out
 }
 #' @export
 alt_configure_axisBand.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBand`(...)
-  out
+out <- pyr_object$`configure_axisBand`(...)
+out
 }
 #' @export
 alt_configure_axisBottom.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBottom`(...)
-  out
+out <- pyr_object$`configure_axisBottom`(...)
+out
 }
 #' @export
 alt_configure_axisLeft.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisLeft`(...)
-  out
+out <- pyr_object$`configure_axisLeft`(...)
+out
 }
 #' @export
 alt_configure_axisRight.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisRight`(...)
-  out
+out <- pyr_object$`configure_axisRight`(...)
+out
 }
 #' @export
 alt_configure_axisTop.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisTop`(...)
-  out
+out <- pyr_object$`configure_axisTop`(...)
+out
 }
 #' @export
 alt_configure_axisX.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisX`(...)
-  out
+out <- pyr_object$`configure_axisX`(...)
+out
 }
 #' @export
 alt_configure_axisY.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisY`(...)
-  out
+out <- pyr_object$`configure_axisY`(...)
+out
 }
 #' @export
 alt_configure_bar.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_bar`(...)
-  out
+out <- pyr_object$`configure_bar`(...)
+out
 }
 #' @export
 alt_configure_circle.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_circle`(...)
-  out
-}
-#' @export
-alt_configure_datasets.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_datasets`(...)
-  out
+out <- pyr_object$`configure_circle`(...)
+out
 }
 #' @export
 alt_configure_geoshape.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_geoshape`(...)
-  out
+out <- pyr_object$`configure_geoshape`(...)
+out
 }
 #' @export
 alt_configure_legend.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_legend`(...)
-  out
+out <- pyr_object$`configure_legend`(...)
+out
 }
 #' @export
 alt_configure_line.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_line`(...)
-  out
+out <- pyr_object$`configure_line`(...)
+out
 }
 #' @export
 alt_configure_mark.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_mark`(...)
-  out
-}
-#' @export
-alt_configure_padding.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_padding`(...)
-  out
+out <- pyr_object$`configure_mark`(...)
+out
 }
 #' @export
 alt_configure_point.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_point`(...)
-  out
+out <- pyr_object$`configure_point`(...)
+out
 }
 #' @export
 alt_configure_projection.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_projection`(...)
-  out
+out <- pyr_object$`configure_projection`(...)
+out
 }
 #' @export
 alt_configure_range.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_range`(...)
-  out
+out <- pyr_object$`configure_range`(...)
+out
 }
 #' @export
 alt_configure_rect.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rect`(...)
-  out
+out <- pyr_object$`configure_rect`(...)
+out
 }
 #' @export
 alt_configure_rule.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rule`(...)
-  out
+out <- pyr_object$`configure_rule`(...)
+out
 }
 #' @export
 alt_configure_scale.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_scale`(...)
-  out
+out <- pyr_object$`configure_scale`(...)
+out
 }
 #' @export
 alt_configure_selection.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_selection`(...)
-  out
+out <- pyr_object$`configure_selection`(...)
+out
 }
 #' @export
 alt_configure_square.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_square`(...)
-  out
-}
-#' @export
-alt_configure_stack.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_stack`(...)
-  out
-}
-#' @export
-alt_configure_style.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_style`(...)
-  out
+out <- pyr_object$`configure_square`(...)
+out
 }
 #' @export
 alt_configure_text.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_text`(...)
-  out
+out <- pyr_object$`configure_text`(...)
+out
 }
 #' @export
 alt_configure_tick.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_tick`(...)
-  out
+out <- pyr_object$`configure_tick`(...)
+out
 }
 #' @export
 alt_configure_title.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_title`(...)
-  out
+out <- pyr_object$`configure_title`(...)
+out
+}
+#' @export
+alt_configure_trail.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
+out <- pyr_object$`configure_trail`(...)
+out
 }
 #' @export
 alt_configure_view.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_view`(...)
-  out
+out <- pyr_object$`configure_view`(...)
+out
+}
+#' @export
+alt_project.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `type` = mercator, `center` = alt$Undefined, `clipAngle` = alt$Undefined, `clipExtent` = alt$Undefined, `coefficient` = alt$Undefined, `distance` = alt$Undefined, `fraction` = alt$Undefined, `lobes` = alt$Undefined, `parallel` = alt$Undefined, `precision` = alt$Undefined, `radius` = alt$Undefined, `ratio` = alt$Undefined, `rotate` = alt$Undefined, `spacing` = alt$Undefined, `tilt` = alt$Undefined, ...) {
+out <- pyr_object$`project`(`type` = r_to_py(`type`), `center` = r_to_py(`center`), `clipAngle` = r_to_py(`clipAngle`), `clipExtent` = r_to_py(`clipExtent`), `coefficient` = r_to_py(`coefficient`), `distance` = r_to_py(`distance`), `fraction` = r_to_py(`fraction`), `lobes` = r_to_py(`lobes`), `parallel` = r_to_py(`parallel`), `precision` = r_to_py(`precision`), `radius` = r_to_py(`radius`), `ratio` = r_to_py(`ratio`), `rotate` = r_to_py(`rotate`), `spacing` = r_to_py(`spacing`), `tilt` = r_to_py(`tilt`), ...)
+out
 }
 #' @export
 alt_properties.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`properties`(...)
-  out
+out <- pyr_object$`properties`(...)
+out
 }
 #' @export
-alt_repeat.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`repeat`(...)
-  out
+alt_repeat.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `row` = alt$Undefined, `column` = alt$Undefined, ...) {
+out <- pyr_object$`repeat`(`row` = r_to_py(`row`), `column` = r_to_py(`column`), ...)
+out
 }
 #' @export
 alt_resolve_axis.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_axis`(...)
-  out
+out <- pyr_object$`resolve_axis`(...)
+out
 }
 #' @export
 alt_resolve_legend.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_legend`(...)
-  out
+out <- pyr_object$`resolve_legend`(...)
+out
 }
 #' @export
 alt_resolve_scale.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_scale`(...)
-  out
+out <- pyr_object$`resolve_scale`(...)
+out
 }
 #' @export
-alt_savechart.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`savechart`(...)
-  out
+alt_save.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `fp`, `format` = character(0), `override_data_transformer` = TRUE, ...) {
+out <- pyr_object$`save`(r_to_py(`fp`), `format` = r_to_py(`format`), `override_data_transformer` = r_to_py(`override_data_transformer`), ...)
+out
+}
+#' @export
+alt_savechart.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `fp`, `format` = character(0), ...) {
+out <- pyr_object$`savechart`(r_to_py(`fp`), `format` = r_to_py(`format`), ...)
+out
 }
 #' @export
 alt_to_dict.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+out <- pyr_object$`to_dict`(...)
+out
 }
 #' @export
-alt_transform_aggregate.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_aggregate`(...)
-  out
+alt_transform_aggregate.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `aggregate` = alt$Undefined, `groupby` = alt$Undefined, ...) {
+out <- pyr_object$`transform_aggregate`(`aggregate` = r_to_py(`aggregate`), `groupby` = r_to_py(`groupby`), ...)
+out
 }
 #' @export
-alt_transform_bin.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_bin`(...)
-  out
+alt_transform_bin.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `bin` = TRUE, ...) {
+out <- pyr_object$`transform_bin`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `bin` = r_to_py(`bin`), ...)
+out
 }
 #' @export
-alt_transform_calculate.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_calculate`(...)
-  out
+alt_transform_calculate.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `as_` = alt$Undefined, `calculate` = alt$Undefined, ...) {
+out <- pyr_object$`transform_calculate`(`as_` = r_to_py(`as_`), `calculate` = r_to_py(`calculate`), ...)
+out
 }
 #' @export
-alt_transform_filter.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_filter`(...)
-  out
+alt_transform_filter.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `filter`, ...) {
+out <- pyr_object$`transform_filter`(r_to_py(`filter`), ...)
+out
 }
 #' @export
-alt_transform_lookup.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_lookup`(...)
-  out
+alt_transform_lookup.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `as_` = alt$Undefined, `from_` = alt$Undefined, `lookup` = alt$Undefined, `default` = alt$Undefined, ...) {
+out <- pyr_object$`transform_lookup`(`as_` = r_to_py(`as_`), `from_` = r_to_py(`from_`), `lookup` = r_to_py(`lookup`), `default` = r_to_py(`default`), ...)
+out
 }
 #' @export
-alt_transform_timeunit.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_timeunit`(...)
-  out
+alt_transform_timeunit.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+out <- pyr_object$`transform_timeunit`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TopLevelRepeatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_transform_window.altair.vegalite.v2.api.TopLevelMixin <- function (pyr_object, ...) {
+out <- pyr_object$`transform_window`(...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TopLevelRepeatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TopLevelRepeatSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TopLevelRepeatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TopLevelRepeatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TopLevelVConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TopLevelRepeatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TopLevelVConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TopLevelSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TopLevelVConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TopLevelSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.TopoDataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TopLevelSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.TopoDataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TopLevelVConcatSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.TopoDataFormat <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TopLevelVConcatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Transform <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TopLevelVConcatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Transform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.TopoDataFormat <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Transform <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.TopoDataFormat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.Type <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.TopoDataFormat <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.Type <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Transform <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.Type <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Transform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.UrlData <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Transform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.UrlData <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.Type <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.UrlData <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.Type <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.UtcMultiTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.Type <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.UtcMultiTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.UrlData <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.UtcMultiTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.UrlData <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.UtcSingleTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.UrlData <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.UtcSingleTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.UtcMultiTimeUnit <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.UtcSingleTimeUnit <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.UtcMultiTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.UtcMultiTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.core.UtcSingleTimeUnit <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.core.UtcSingleTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.core.UtcSingleTimeUnit <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
 alt_configure.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure`(...)
-  out
+out <- pyr_object$`configure`(...)
+out
 }
 #' @export
 alt_configure_area.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_area`(...)
-  out
+out <- pyr_object$`configure_area`(...)
+out
 }
 #' @export
 alt_configure_axis.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axis`(...)
-  out
+out <- pyr_object$`configure_axis`(...)
+out
 }
 #' @export
 alt_configure_axisBand.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBand`(...)
-  out
+out <- pyr_object$`configure_axisBand`(...)
+out
 }
 #' @export
 alt_configure_axisBottom.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisBottom`(...)
-  out
+out <- pyr_object$`configure_axisBottom`(...)
+out
 }
 #' @export
 alt_configure_axisLeft.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisLeft`(...)
-  out
+out <- pyr_object$`configure_axisLeft`(...)
+out
 }
 #' @export
 alt_configure_axisRight.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisRight`(...)
-  out
+out <- pyr_object$`configure_axisRight`(...)
+out
 }
 #' @export
 alt_configure_axisTop.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisTop`(...)
-  out
+out <- pyr_object$`configure_axisTop`(...)
+out
 }
 #' @export
 alt_configure_axisX.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisX`(...)
-  out
+out <- pyr_object$`configure_axisX`(...)
+out
 }
 #' @export
 alt_configure_axisY.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_axisY`(...)
-  out
+out <- pyr_object$`configure_axisY`(...)
+out
 }
 #' @export
 alt_configure_bar.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_bar`(...)
-  out
+out <- pyr_object$`configure_bar`(...)
+out
 }
 #' @export
 alt_configure_circle.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_circle`(...)
-  out
-}
-#' @export
-alt_configure_datasets.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_datasets`(...)
-  out
+out <- pyr_object$`configure_circle`(...)
+out
 }
 #' @export
 alt_configure_geoshape.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_geoshape`(...)
-  out
+out <- pyr_object$`configure_geoshape`(...)
+out
 }
 #' @export
 alt_configure_legend.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_legend`(...)
-  out
+out <- pyr_object$`configure_legend`(...)
+out
 }
 #' @export
 alt_configure_line.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_line`(...)
-  out
+out <- pyr_object$`configure_line`(...)
+out
 }
 #' @export
 alt_configure_mark.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_mark`(...)
-  out
-}
-#' @export
-alt_configure_padding.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_padding`(...)
-  out
+out <- pyr_object$`configure_mark`(...)
+out
 }
 #' @export
 alt_configure_point.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_point`(...)
-  out
+out <- pyr_object$`configure_point`(...)
+out
 }
 #' @export
 alt_configure_projection.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_projection`(...)
-  out
+out <- pyr_object$`configure_projection`(...)
+out
 }
 #' @export
 alt_configure_range.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_range`(...)
-  out
+out <- pyr_object$`configure_range`(...)
+out
 }
 #' @export
 alt_configure_rect.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rect`(...)
-  out
+out <- pyr_object$`configure_rect`(...)
+out
 }
 #' @export
 alt_configure_rule.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_rule`(...)
-  out
+out <- pyr_object$`configure_rule`(...)
+out
 }
 #' @export
 alt_configure_scale.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_scale`(...)
-  out
+out <- pyr_object$`configure_scale`(...)
+out
 }
 #' @export
 alt_configure_selection.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_selection`(...)
-  out
+out <- pyr_object$`configure_selection`(...)
+out
 }
 #' @export
 alt_configure_square.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_square`(...)
-  out
-}
-#' @export
-alt_configure_stack.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_stack`(...)
-  out
-}
-#' @export
-alt_configure_style.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_style`(...)
-  out
+out <- pyr_object$`configure_square`(...)
+out
 }
 #' @export
 alt_configure_text.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_text`(...)
-  out
+out <- pyr_object$`configure_text`(...)
+out
 }
 #' @export
 alt_configure_tick.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_tick`(...)
-  out
+out <- pyr_object$`configure_tick`(...)
+out
 }
 #' @export
 alt_configure_title.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_title`(...)
-  out
+out <- pyr_object$`configure_title`(...)
+out
+}
+#' @export
+alt_configure_trail.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
+out <- pyr_object$`configure_trail`(...)
+out
 }
 #' @export
 alt_configure_view.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`configure_view`(...)
-  out
+out <- pyr_object$`configure_view`(...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_copy.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_project.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `type` = mercator, `center` = alt$Undefined, `clipAngle` = alt$Undefined, `clipExtent` = alt$Undefined, `coefficient` = alt$Undefined, `distance` = alt$Undefined, `fraction` = alt$Undefined, `lobes` = alt$Undefined, `parallel` = alt$Undefined, `precision` = alt$Undefined, `radius` = alt$Undefined, `ratio` = alt$Undefined, `rotate` = alt$Undefined, `spacing` = alt$Undefined, `tilt` = alt$Undefined, ...) {
+out <- pyr_object$`project`(`type` = r_to_py(`type`), `center` = r_to_py(`center`), `clipAngle` = r_to_py(`clipAngle`), `clipExtent` = r_to_py(`clipExtent`), `coefficient` = r_to_py(`coefficient`), `distance` = r_to_py(`distance`), `fraction` = r_to_py(`fraction`), `lobes` = r_to_py(`lobes`), `parallel` = r_to_py(`parallel`), `precision` = r_to_py(`precision`), `radius` = r_to_py(`radius`), `ratio` = r_to_py(`ratio`), `rotate` = r_to_py(`rotate`), `spacing` = r_to_py(`spacing`), `tilt` = r_to_py(`tilt`), ...)
+out
 }
 #' @export
 alt_properties.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`properties`(...)
-  out
+out <- pyr_object$`properties`(...)
+out
 }
 #' @export
-alt_repeat.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`repeat`(...)
-  out
+alt_repeat.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `row` = alt$Undefined, `column` = alt$Undefined, ...) {
+out <- pyr_object$`repeat`(`row` = r_to_py(`row`), `column` = r_to_py(`column`), ...)
+out
 }
 #' @export
 alt_resolve_axis.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_axis`(...)
-  out
+out <- pyr_object$`resolve_axis`(...)
+out
 }
 #' @export
 alt_resolve_legend.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_legend`(...)
-  out
+out <- pyr_object$`resolve_legend`(...)
+out
 }
 #' @export
 alt_resolve_scale.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`resolve_scale`(...)
-  out
+out <- pyr_object$`resolve_scale`(...)
+out
 }
 #' @export
-alt_savechart.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`savechart`(...)
-  out
+alt_save.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `fp`, `format` = character(0), `override_data_transformer` = TRUE, ...) {
+out <- pyr_object$`save`(r_to_py(`fp`), `format` = r_to_py(`format`), `override_data_transformer` = r_to_py(`override_data_transformer`), ...)
+out
+}
+#' @export
+alt_savechart.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `fp`, `format` = character(0), ...) {
+out <- pyr_object$`savechart`(r_to_py(`fp`), `format` = r_to_py(`format`), ...)
+out
 }
 #' @export
 alt_to_dict.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+out <- pyr_object$`to_dict`(...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_json.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_transform_aggregate.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_aggregate`(...)
-  out
+alt_transform_aggregate.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `aggregate` = alt$Undefined, `groupby` = alt$Undefined, ...) {
+out <- pyr_object$`transform_aggregate`(`aggregate` = r_to_py(`aggregate`), `groupby` = r_to_py(`groupby`), ...)
+out
 }
 #' @export
-alt_transform_bin.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_bin`(...)
-  out
+alt_transform_bin.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `bin` = TRUE, ...) {
+out <- pyr_object$`transform_bin`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `bin` = r_to_py(`bin`), ...)
+out
 }
 #' @export
-alt_transform_calculate.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_calculate`(...)
-  out
+alt_transform_calculate.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `as_` = alt$Undefined, `calculate` = alt$Undefined, ...) {
+out <- pyr_object$`transform_calculate`(`as_` = r_to_py(`as_`), `calculate` = r_to_py(`calculate`), ...)
+out
 }
 #' @export
-alt_transform_filter.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_filter`(...)
-  out
+alt_transform_filter.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `filter`, ...) {
+out <- pyr_object$`transform_filter`(r_to_py(`filter`), ...)
+out
 }
 #' @export
-alt_transform_lookup.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_lookup`(...)
-  out
+alt_transform_lookup.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `as_` = alt$Undefined, `from_` = alt$Undefined, `lookup` = alt$Undefined, `default` = alt$Undefined, ...) {
+out <- pyr_object$`transform_lookup`(`as_` = r_to_py(`as_`), `from_` = r_to_py(`from_`), `lookup` = r_to_py(`lookup`), `default` = r_to_py(`default`), ...)
+out
 }
 #' @export
-alt_transform_timeunit.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
-  out <- pyr_object$`transform_timeunit`(...)
-  out
+alt_transform_timeunit.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, `as_` = alt$Undefined, `field` = alt$Undefined, `timeUnit` = alt$Undefined, ...) {
+out <- pyr_object$`transform_timeunit`(`as_` = r_to_py(`as_`), `field` = r_to_py(`field`), `timeUnit` = r_to_py(`timeUnit`), ...)
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_transform_window.altair.vegalite.v2.api.VConcatChart <- function (pyr_object, ...) {
+out <- pyr_object$`transform_window`(...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VConcatSpec <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VConcatSpec <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VConcatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VConcatSpec <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.ValueChannelMixin <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ValueDef <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ValueDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ValueDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ValueDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ValueDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ValueDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ValueDefWithCondition <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ValueDefWithCondition <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VegaLiteSchema <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ValueDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VegaLiteSchema <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ValueDefWithCondition <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VegaLiteSchema <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VegaLiteSchema <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VerticalAlign <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VegaLiteSchema <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VerticalAlign <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VegaLiteSchema <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VerticalAlign <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VerticalAlign <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgAxisConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VerticalAlign <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgAxisConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VerticalAlign <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgAxisConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgAxisConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgAxisConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgAxisConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgBinding <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgCheckboxBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgCheckboxBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgCheckboxBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgCheckboxBinding <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgEventStream <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgCheckboxBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgEventStream <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgCheckboxBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgEventStream <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgComparatorOrder <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgGenericBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgComparatorOrder <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgGenericBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgComparatorOrder <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgGenericBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgEventStream <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgMarkConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgEventStream <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgMarkConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgEventStream <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgMarkConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgGenericBinding <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgProjectionType <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgGenericBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgProjectionType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgGenericBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgProjectionType <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgMarkConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgRadioBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgMarkConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgRadioBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgMarkConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgRadioBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgProjectionType <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgRangeBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgProjectionType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgRangeBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgProjectionType <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgRangeBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgRadioBinding <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgScheme <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgRadioBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgScheme <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgRadioBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgScheme <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgRangeBinding <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgSelectBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgRangeBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgSelectBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgRangeBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgSelectBinding <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgScheme <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.VgTitleConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgScheme <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.VgTitleConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgScheme <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.VgTitleConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgSelectBinding <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.core.ViewConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgSelectBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.core.ViewConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgSelectBinding <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.core.ViewConfig <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.VgTitleConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.X <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.VgTitleConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.X <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.VgTitleConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.X <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.ViewConfig <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.X2 <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.ViewConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.X2 <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.ViewConfig <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.X2 <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.WindowFieldDef <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.X2Value <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.WindowFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.X2Value <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.WindowFieldDef <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.X2Value <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.WindowOnlyOp <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.XValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.WindowOnlyOp <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.XValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.WindowOnlyOp <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.XValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.WindowSortField <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Y <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.WindowSortField <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Y <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.WindowSortField <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Y <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.core.WindowTransform <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Y2 <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.core.WindowTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Y2 <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.core.WindowTransform <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Y2 <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.X <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.Y2Value <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.X <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.Y2Value <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.X <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.Y2Value <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.X2 <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
 }
 #' @export
-alt_copy.altair.vegalite.v2.schema.channels.YValue <- function (pyr_object, ...) {
-  out <- pyr_object$`copy`(...)
-  out
+alt_to_dict.altair.vegalite.v2.schema.channels.X2 <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
 }
 #' @export
-alt_to_dict.altair.vegalite.v2.schema.channels.YValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_dict`(...)
-  out
+alt_to_json.altair.vegalite.v2.schema.channels.X2 <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
-alt_to_json.altair.vegalite.v2.schema.channels.YValue <- function (pyr_object, ...) {
-  out <- pyr_object$`to_json`(...)
-  out
+alt_copy.altair.vegalite.v2.schema.channels.X2Value <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.channels.X2Value <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.channels.X2Value <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.channels.XValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.channels.XValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.channels.XValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.channels.Y <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.channels.Y <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.channels.Y <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.channels.Y2 <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.channels.Y2 <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.channels.Y2 <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.channels.Y2Value <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.channels.Y2Value <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.channels.Y2Value <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
+}
+#' @export
+alt_copy.altair.vegalite.v2.schema.channels.YValue <- function (pyr_object, `deep` = TRUE, `ignore` = character(0)) {
+out <- pyr_object$`copy`(`deep` = r_to_py(`deep`), `ignore` = r_to_py(`ignore`))
+out
+}
+#' @export
+alt_to_dict.altair.vegalite.v2.schema.channels.YValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0)) {
+out <- pyr_object$`to_dict`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`))
+out
+}
+#' @export
+alt_to_json.altair.vegalite.v2.schema.channels.YValue <- function (pyr_object, `validate` = TRUE, `ignore` = character(0), `context` = character(0), `indent` = 2, `sort_keys` = TRUE, ...) {
+out <- pyr_object$`to_json`(`validate` = r_to_py(`validate`), `ignore` = r_to_py(`ignore`), `context` = r_to_py(`context`), `indent` = r_to_py(`indent`), `sort_keys` = r_to_py(`sort_keys`), ...)
+out
 }
 #' @export
 alt_bind.toolz.functoolz.curry <- function (pyr_object, ...) {
-  out <- pyr_object$`bind`(...)
-  out
+out <- pyr_object$`bind`(...)
+out
 }
 #' @export
 alt_call.toolz.functoolz.curry <- function (pyr_object, ...) {
-  out <- pyr_object$`call`(...)
-  out
+out <- pyr_object$`call`(...)
+out
 }
